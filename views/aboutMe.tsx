@@ -1,11 +1,52 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { SKILLS, INTERNSHIPS } from '../constants';
-import { Briefcase, Calendar, Code, MapPin } from 'lucide-react';
+import { Briefcase, Calendar, Code, MapPin, User } from 'lucide-react';
 
 const Skills: React.FC = () => {
+  // Typing animation state
+  const bioText = "I'm a motivated Computer Science student at Cairo University with a strong foundation in software development, Data Science, and Artificial Intelligence. Throughout my journey, I've gained extensive experience building end-to-end machine learning pipelines, creating insightful data visualization dashboards, and developing full-stack web applications. With strong problem-solving, analytical thinking, and collaboration skills, I am deeply passionate about AI innovation and automation. I excel in environments where I can leverage cutting-edge technology to solve real-world challenges—whether through predictive modeling, intelligent CRM systems, or automating complex business workflows.";
+
+  const [displayedText, setDisplayedText] = useState('');
+  const [currentIndex, setCurrentIndex] = useState(0);
+  const [showCursor, setShowCursor] = useState(true);
+
+  useEffect(() => {
+    if (currentIndex < bioText.length) {
+      const timeout = setTimeout(() => {
+        setDisplayedText(bioText.slice(0, currentIndex + 1));
+        setCurrentIndex(currentIndex + 1);
+      }, 30); // Typing speed
+      return () => clearTimeout(timeout);
+    }
+  }, [currentIndex, bioText]);
+
+  useEffect(() => {
+    const cursorInterval = setInterval(() => {
+      setShowCursor((prev) => !prev);
+    }, 500); // Cursor blink speed
+    return () => clearInterval(cursorInterval);
+  }, []);
+
   return (
     <div className="animate-fade-in py-8 md:py-12">
       <div className="max-w-6xl mx-auto px-4 md:px-6">
+
+        {/* Bio Section with Typing Animation */}
+        <section className="mb-16 md:mb-20">
+          <div className="flex items-center gap-3 mb-8">
+            <User className="text-primary" size={32} />
+            <h1 className="text-3xl md:text-4xl font-display font-bold">About Me</h1>
+          </div>
+
+          <div className="glass dark:bg-dark-card/50 p-6 md:p-8 rounded-2xl border border-gray-200 dark:border-dark-border hover:border-primary/30 transition-all duration-300">
+            <p className="text-base md:text-lg leading-relaxed text-gray-700 dark:text-gray-300 font-mono">
+              {displayedText}
+              {currentIndex < bioText.length && (
+                <span className={`inline-block w-0.5 h-5 bg-primary ml-1 ${showCursor ? 'opacity-100' : 'opacity-0'}`} />
+              )}
+            </p>
+          </div>
+        </section>
 
         {/* Internships Timeline Section */}
         <section className="mb-16 md:mb-20">
