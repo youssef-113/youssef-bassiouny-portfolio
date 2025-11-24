@@ -3,13 +3,17 @@ export interface Project {
   title: string;
   short_description: string;
   long_description?: string;
+  problem_solved?: string; // What problem does this project solve?
+  technical_highlights?: string[]; // Key technical achievements and approaches
+  business_impact?: string[]; // Business benefits and outcomes
   tech_stack: string[];
   thumbnail_url: string;
+  gallery_images?: string[]; // For projects with multiple screenshots (e.g., Power BI dashboards)
   live_url?: string;
   github_url?: string;
   notebook_url?: string;
   presentation_url?: string;
-  type: 'ds' | 'software' | 'dashboard';
+  type: 'dataanalysis' | 'ds' | 'software' | 'powerbi';
   year: string;
   featured: boolean;
 }

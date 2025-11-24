@@ -1,14 +1,21 @@
 import React, { useState, useMemo } from 'react';
 import ProjectCard from '../components/ProjectCard';
 import { PROJECTS } from '../constants';
-import { Filter } from 'lucide-react';
+import { Filter, BarChart3, Brain, Code, Database } from 'lucide-react';
 
 const Projects: React.FC = () => {
-  const [filter, setFilter] = useState<'all' | 'ds' | 'software'>('all');
+  const [filter, setFilter] = useState<'all' | 'dataanalysis' | 'ds' | 'powerbi' | 'software'>('all');
 
   const filteredProjects = useMemo(() => {
     if (filter === 'all') return PROJECTS;
-    return PROJECTS.filter(p => p.type === (filter === 'software' ? 'software' : 'ds'));
+    // Data Analysis includes both 'dataanalysis' and 'powerbi' projects
+    if (filter === 'dataanalysis') return PROJECTS.filter(p => p.type === 'dataanalysis' || p.type === 'powerbi');
+    // Data Science shows only 'ds' projects
+    if (filter === 'ds') return PROJECTS.filter(p => p.type === 'ds');
+    // Power BI shows only powerbi projects
+    if (filter === 'powerbi') return PROJECTS.filter(p => p.type === 'powerbi');
+    // Software shows only software projects
+    return PROJECTS.filter(p => p.type === filter);
   }, [filter]);
 
   return (
@@ -17,40 +24,60 @@ const Projects: React.FC = () => {
         <div>
           <h1 className="text-4xl font-display font-bold mb-4">Projects</h1>
           <p className="text-gray-600 dark:text-gray-400 max-w-xl">
-            A collection of my work spanning Data Science, Machine Learning, and Full Stack Web Development.
+            A collection of my work spanning Data Science, Machine Learning, Power BI Analytics, and Full Stack Web Development.
           </p>
         </div>
 
         {/* Filters */}
-        <div className="flex items-center bg-gray-100 dark:bg-dark-card p-1 rounded-lg border border-gray-200 dark:border-dark-border">
+        <div className="flex flex-wrap items-center bg-gray-100 dark:bg-dark-card p-1 rounded-lg border border-gray-200 dark:border-dark-border gap-1">
           <button
             onClick={() => setFilter('all')}
-            className={`px-4 py-2 rounded-md text-sm font-medium transition-all ${
-              filter === 'all' 
-                ? 'bg-white dark:bg-gray-700 text-primary shadow-sm' 
-                : 'text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-200'
-            }`}
+            className={`px-4 py-2 rounded-md text-sm font-medium transition-all flex items-center gap-2 ${filter === 'all'
+              ? 'bg-white dark:bg-gray-700 text-primary shadow-sm'
+              : 'text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-200'
+              }`}
           >
+            <Filter size={16} />
             All
           </button>
           <button
-            onClick={() => setFilter('ds')}
-            className={`px-4 py-2 rounded-md text-sm font-medium transition-all ${
-              filter === 'ds' 
-                ? 'bg-white dark:bg-gray-700 text-primary shadow-sm' 
-                : 'text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-200'
-            }`}
+            onClick={() => setFilter('dataanalysis')}
+            className={`px-4 py-2 rounded-md text-sm font-medium transition-all flex items-center gap-2 ${filter === 'dataanalysis'
+              ? 'bg-white dark:bg-gray-700 text-primary shadow-sm'
+              : 'text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-200'
+              }`}
           >
-            Data Science & ML
+            <Brain size={16} />
+            Data Analysis
+          </button>
+          <button
+            onClick={() => setFilter('ds')}
+            className={`px-4 py-2 rounded-md text-sm font-medium transition-all flex items-center gap-2 ${filter === 'ds'
+              ? 'bg-white dark:bg-gray-700 text-primary shadow-sm'
+              : 'text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-200'
+              }`}
+          >
+            <Database size={16} />
+            Data Science
+          </button>
+          <button
+            onClick={() => setFilter('powerbi')}
+            className={`px-4 py-2 rounded-md text-sm font-medium transition-all flex items-center gap-2 ${filter === 'powerbi'
+              ? 'bg-white dark:bg-gray-700 text-primary shadow-sm'
+              : 'text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-200'
+              }`}
+          >
+            <BarChart3 size={16} />
+            Power BI
           </button>
           <button
             onClick={() => setFilter('software')}
-            className={`px-4 py-2 rounded-md text-sm font-medium transition-all ${
-              filter === 'software' 
-                ? 'bg-white dark:bg-gray-700 text-primary shadow-sm' 
-                : 'text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-200'
-            }`}
+            className={`px-4 py-2 rounded-md text-sm font-medium transition-all flex items-center gap-2 ${filter === 'software'
+              ? 'bg-white dark:bg-gray-700 text-primary shadow-sm'
+              : 'text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-200'
+              }`}
           >
+            <Code size={16} />
             Software & Web
           </button>
         </div>

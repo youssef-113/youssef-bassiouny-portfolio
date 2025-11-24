@@ -124,7 +124,7 @@ const ChromaGrid: React.FC<ChromaGridProps> = ({
                 {items.map((item, index) => (
                     <div
                         key={index}
-                        ref={(el) => (cardsRef.current[index] = el)}
+                        ref={(el) => { cardsRef.current[index] = el; }}
                         onClick={() => handleCardClick(item)}
                         className="relative cursor-pointer group"
                         style={{
