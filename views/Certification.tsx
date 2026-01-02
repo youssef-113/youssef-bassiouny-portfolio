@@ -83,6 +83,8 @@ const Resources: React.FC = () => {
                 <button
                   onClick={closeModal}
                   className="p-2 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors"
+                  aria-label="Close certificate details"
+                  title="Close"
                 >
                   <X size={24} />
                 </button>

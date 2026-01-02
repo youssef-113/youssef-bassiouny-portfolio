@@ -42,13 +42,13 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project, index }) => {
 
           {/* Type Badge */}
           <div className="absolute top-3 right-3">
-            <span className={`text-xs font-bold px-2 py-1 rounded uppercase tracking-wider backdrop-blur-sm ${project.type === 'dataanalysis' ? 'bg-green-500/30 text-green-100 border border-green-500/30' :
+            <span className={`text-xs font-bold px-2 py-1 rounded uppercase tracking-wider backdrop-blur-sm ${project.type === 'data analysis' ? 'bg-green-500/30 text-green-100 border border-green-500/30' :
               project.type === 'ds' ? 'bg-purple-500/30 text-purple-100 border border-purple-500/30' :
                 project.type === 'software' ? 'bg-blue-500/30 text-blue-100 border border-blue-500/30' :
                   project.type === 'powerbi' ? 'bg-amber-500/30 text-amber-100 border border-amber-500/30' :
                     'bg-gray-500/30 text-gray-100 border border-gray-500/30'
               }`}>
-              {project.type === 'dataanalysis' ? 'Data Analysis' :
+              {project.type === 'data analysis' ? 'Data Analysis' :
                 project.type === 'ds' ? 'Data Science' :
                   project.type === 'software' ? 'Software' :
                     project.type === 'powerbi' ? 'Power BI' :

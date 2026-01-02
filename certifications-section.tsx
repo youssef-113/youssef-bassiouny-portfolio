@@ -1,8 +1,8 @@
 "use client"
 
-import Image from "next/image"
-import { Card } from "@/components/ui/card"
-import { Button } from "@/components/ui/button"
+
+import { Card } from "./components/ui/card"
+import { Button } from "./components/ui/button"
 
 const certifications = [
   {
@@ -50,11 +50,10 @@ export function CertificationsSection() {
               className="bg-card border-border hover:border-accent transition-all duration-300 overflow-hidden group"
             >
               <div className="relative h-48 overflow-hidden">
-                <Image
+                <img
                   src={cert.image || "/placeholder.svg"}
                   alt={cert.title}
-                  fill
-                  className="object-cover group-hover:scale-105 transition-transform duration-300"
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-card via-transparent to-transparent" />
               </div>

@@ -9,7 +9,7 @@ const Projects: React.FC = () => {
   const filteredProjects = useMemo(() => {
     if (filter === 'all') return PROJECTS;
     // Data Analysis includes both 'dataanalysis' and 'powerbi' projects
-    if (filter === 'dataanalysis') return PROJECTS.filter(p => p.type === 'dataanalysis' || p.type === 'powerbi');
+    if (filter === 'dataanalysis') return PROJECTS.filter(p => p.type === 'data analysis' || p.type === 'powerbi');
     // Data Science shows only 'ds' projects
     if (filter === 'ds') return PROJECTS.filter(p => p.type === 'ds');
     // Power BI shows only powerbi projects

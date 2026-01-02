@@ -313,22 +313,22 @@ export const PROJECTS: Project[] = [
       "Increased user satisfaction with mobile-friendly interface for coaches and players"
     ],
     tech_stack: ["PHP", "MySQL", "JavaScript", "Security"],
-    thumbnail_url: "/Images/al ahly crm/training management.PNG",
+    thumbnail_url: "/images/al-ahly-crm/training management.PNG",
     gallery_images: [
-      "/Images/al ahly crm/training management.PNG",
-      "/Images/al ahly crm/chats.PNG",
-      "/Images/al ahly crm/checkup.PNG",
-      "/Images/al ahly crm/chek.PNG",
-      "/Images/al ahly crm/daw.PNG",
-      "/Images/al ahly crm/ew.PNG",
-      "/Images/al ahly crm/re23.PNG",
-      "/Images/al ahly crm/sae.PNG",
-      "/Images/al ahly crm/sde.PNG",
-      "/Images/al ahly crm/tawk.PNG",
-      "/Images/al ahly crm/tawk2.PNG"
+      "/images/al-ahly-crm/training management.PNG",
+      "/images/al-ahly-crm/chats.PNG",
+      "/images/al-ahly-crm/checkup.PNG",
+      "/images/al-ahly-crm/chek.PNG",
+      "/images/al-ahly-crm/daw.PNG",
+      "/images/al-ahly-crm/ew.PNG",
+      "/images/al-ahly-crm/re23.PNG",
+      "/images/al-ahly-crm/sae.PNG",
+      "/images/al-ahly-crm/sde.PNG",
+      "/images/al-ahly-crm/tawk.PNG",
+      "/images/al-ahly-crm/tawk2.PNG"
     ],
     github_url: "https://github.com/youssef-113",
-    presentation_url: "/Images/al ahly crm/Al ahly club CRM.pdf",
+    presentation_url: "/images/al-ahly-crm/Al ahly club CRM.pdf",
     type: "software",
     year: "2025",
     featured: true
@@ -357,12 +357,12 @@ export const PROJECTS: Project[] = [
       "Enhanced profitability through optimized inventory turnover rates"
     ],
     tech_stack: ["Python", "Power BI", "Scikit-learn", "Pandas", "ARIMA"],
-    thumbnail_url: "/Images/Forcast car sales/OverView.PNG",
+    thumbnail_url: "/images/forcast-car-sales/OverView.PNG",
     gallery_images: [
-      "/Images/Forcast car sales/OverView.PNG",
-      "/Images/Forcast car sales/Total Sales.PNG",
-      "/Images/Forcast car sales/Total Sales per Company.PNG",
-      "/Images/Forcast car sales/Dril-Drow.PNG"
+      "/images/forcast-car-sales/OverView.PNG",
+      "/images/forcast-car-sales/Total Sales.PNG",
+      "/images/forcast-car-sales/Total Sales per Company.PNG",
+      "/images/forcast-car-sales/Dril-Drow.PNG"
     ],
     github_url: "https://github.com/youssef-113",
     type: "ds",
@@ -426,12 +426,12 @@ export const PROJECTS: Project[] = [
       "Reduced data entry errors by 50% with structured input forms"
     ],
     tech_stack: ["React", "PHP", "SQL", "Chart.js"],
-    thumbnail_url: "/Images/websit vmax/vmax landing page.PNG",
+    thumbnail_url: "/images/websit-vmax/vmax landing page.PNG",
     gallery_images: [
-      "/Images/websit vmax/vmax landing page.PNG",
-      "/Images/websit vmax/vmax dashboard.PNG",
-      "/Images/websit vmax/manager-dash.PNG",
-      "/Images/websit vmax/salesman-dash.PNG"
+      "/images/websit-vmax/vmax landing page.PNG",
+      "/images/websit-vmax/vmax dashboard.PNG",
+      "/images/websit-vmax/manager-dash.PNG",
+      "/images/websit-vmax/salesman-dash.PNG"
     ],
     github_url: "https://github.com/youssef-113",
     type: "software",
@@ -440,6 +440,92 @@ export const PROJECTS: Project[] = [
   },
   {
     id: "p5",
+    title: "Odoo ERP System Optimization & Integration",
+    short_description: "Led complete ERP system optimization with Odoo, including database architecture, Salla & Shopify integrations for Hoven company.",
+    long_description: "Comprehensive ERP system implementation and optimization project where I served as team leader and system administrator. Built robust database architecture, integrated e-commerce platforms (Salla and Shopify), and created a fully functional ERP system for streamlined business operations at Hoven company.",
+    problem_solved: "Hoven company struggled with disconnected business processes across sales, inventory, and e-commerce platforms. Manual data entry between Salla, Shopify, and internal systems led to inventory discrepancies, delayed order processing, and inability to track real-time business metrics. The company needed a unified ERP solution to centralize operations and automate workflows.",
+    technical_highlights: [
+      "Led team as administrator to implement and optimize Odoo ERP system from scratch",
+      "Designed and built comprehensive database architecture for multi-channel operations",
+      "Integrated Salla e-commerce platform with Odoo for automated order synchronization",
+      "Integrated Shopify store with Odoo enabling real-time inventory management",
+      "Developed custom modules and workflows for business-specific requirements",
+      "Implemented automated sales reporting and analytics dashboards",
+      "Created data migration scripts to transfer legacy data into Odoo",
+      "Configured role-based access control for different departments",
+      "Optimized database queries and indexing for improved system performance",
+      "Set up automated backup and disaster recovery procedures"
+    ],
+    business_impact: [
+      "Unified all business operations into single ERP platform reducing operational complexity",
+      "Eliminated manual data entry saving 20+ hours per week across teams",
+      "Achieved real-time inventory synchronization across Salla and Shopify preventing overselling",
+      "Reduced order processing time by 60% through automated workflows",
+      "Improved inventory accuracy from 75% to 98% with centralized management",
+      "Enabled data-driven decision making with comprehensive sales analytics",
+      "Increased team productivity by 40% through streamlined processes",
+      "Reduced system errors by 85% with automated integrations",
+      "Provided executive visibility into business metrics with real-time dashboards",
+      "Positioned company for scalable growth with robust ERP foundation"
+    ],
+    tech_stack: ["Odoo", "Python", "PostgreSQL", "Salla API", "Shopify API", "REST APIs", "Database Design", "ERP Systems"],
+    thumbnail_url: "/images/odoo/Screenshot 2025-10-27 161913.png",
+    gallery_images: [
+      "/images/odoo/Screenshot 2025-10-27 161913.png",
+      "/images/odoo/Screenshot 2025-11-25 005321.png",
+      "/images/odoo/Screenshot 2025-11-25 005435.png",
+      "/images/odoo/Screenshot 2025-11-25 005603.png",
+      "/images/odoo/Screenshot 2025-11-25 005927.png",
+      "/images/odoo/Screenshot 2025-11-25 013844.png"
+    ],
+    github_url: "https://github.com/youssef-113",
+    type: "AI Developer",
+    year: "2025",
+    featured: true
+  },
+  {
+    id: "p6",
+    title: "AI Chatbot Automation & Multi-Platform Integration",
+    short_description: "Intelligent chatbot with fine-tuned LLM integrated across website and social media for automated customer support.",
+    long_description: "Advanced AI-powered chatbot system built for freelance client, featuring fine-tuned LLM trained on Salla e-commerce data. Integrated seamlessly across website and social media platforms to provide instant, intelligent customer support and handle repetitive inquiries automatically.",
+    problem_solved: "Customer support team was overwhelmed with repetitive questions across multiple platforms (website, Facebook, Instagram, WhatsApp). Response times averaged 2-4 hours, leading to customer frustration and lost sales. The team spent 70% of their time answering the same questions about products, shipping, and returns, leaving little time for complex customer issues.",
+    technical_highlights: [
+      "Fine-tuned LLM (Large Language Model) on custom Salla e-commerce dataset",
+      "Trained AI on product catalogs, FAQs, shipping policies, and historical customer interactions",
+      "Integrated chatbot across website, Facebook Messenger, Instagram DMs, and WhatsApp",
+      "Implemented natural language understanding for Arabic and English queries",
+      "Built context-aware conversation flows with memory of previous interactions",
+      "Created intelligent routing system to escalate complex queries to human agents",
+      "Optimized LLM responses for accuracy and brand voice consistency",
+      "Developed real-time analytics dashboard tracking chatbot performance and customer satisfaction",
+      "Implemented fallback mechanisms for handling out-of-scope questions",
+      "Set up continuous learning pipeline to improve responses based on feedback"
+    ],
+    business_impact: [
+      "Reduced average response time from 2-4 hours to under 30 seconds",
+      "Handled 80% of customer inquiries automatically without human intervention",
+      "Freed up customer support team to focus on complex issues and sales",
+      "Increased customer satisfaction scores by 45% due to instant responses",
+      "Improved conversion rates by 25% through immediate product information",
+      "Reduced support costs by 60% while handling 3x more customer interactions",
+      "Enabled 24/7 customer support without additional staffing costs",
+      "Decreased cart abandonment by 30% through proactive engagement",
+      "Collected valuable customer insights through conversation analytics",
+      "Maintained consistent brand voice across all communication channels"
+    ],
+    tech_stack: ["Python", "LLM", "NLP", "Salla API", "Facebook API", "Instagram API", "WhatsApp API", "Fine-tuning", "Machine Learning", "Chatbot Development"],
+    thumbnail_url: "/images/ai-automation/ai-automation.png",
+    gallery_images: [
+      "/images/ai-automation/ai-automation.png",
+      "/images/ai-automation/ai-automation2.png"
+    ],
+    github_url: "https://github.com/youssef-113",
+    type: "AI Developer",
+    year: "2025",
+    featured: true
+  },
+  {
+    id: "p7",
     title: "Fine-Tuned BERT Sentiment Classifier",
     short_description: "BERT-based text classifier using Hugging Face transformers achieving 91% accuracy.",
     long_description: "State-of-the-art NLP project fine-tuning BERT model for sentiment analysis. Achieved 91% accuracy on customer review classification using transfer learning and Hugging Face transformers library.",
@@ -470,16 +556,16 @@ export const PROJECTS: Project[] = [
     featured: false
   },
   {
-    id: "p6",
+    id: "p8",
     title: "Mushroom Classification Pipeline",
     short_description: "Reproducible ML pipeline with data preprocessing and model training (Logistic Regression, Decision Tree).",
     long_description: "End-to-end machine learning pipeline featuring data preprocessing, feature engineering, model training with multiple algorithms, and comprehensive evaluation metrics.",
     tech_stack: ["Python", "MLOps", "Scikit-learn", "Pandas"],
-    thumbnail_url: "/Images/ML/outp4ut.png",
+    thumbnail_url: "/images/ml/outp4ut.png",
     gallery_images: [
-      "/Images/ML/outp4ut.png",
-      "/Images/ML/rrrr.png",
-      "/Images/ML/h.PNG"
+      "/images/ml/outp4ut.png",
+      "/images/ml/rrrr.png",
+      "/images/ml/h.PNG"
     ],
     github_url: "https://github.com/youssef-113/Classification-Model-Mushroom-dataset",
     type: "ds",
@@ -487,18 +573,18 @@ export const PROJECTS: Project[] = [
     featured: false
   },
   {
-    id: "p7",
+    id: "p9",
     title: "Student Behavior Prediction System",
     short_description: "ML and Deep Learning models to predict student behavior patterns and academic performance using various algorithms.",
     long_description: "Comprehensive machine learning and deep learning project analyzing student behavior data with multiple prediction models and visualization of results.",
     tech_stack: ["Python", "TensorFlow", "Scikit-learn", "Pandas", "Deep Learning"],
-    thumbnail_url: "/Images/ML/Actual_vs_Predicted2.png",
+    thumbnail_url: "/images/ml/Actual_vs_Predicted2.png",
     gallery_images: [
-      "/Images/ML/Actual_vs_Predicted2.png",
-      "/Images/ML/b.PNG",
-      "/Images/ML/c.PNG",
-      "/Images/ML/d.PNG",
-      "/Images/ML/e.PNG"
+      "/images/ml/Actual_vs_Predicted2.png",
+      "/images/ml/b.PNG",
+      "/images/ml/c.PNG",
+      "/images/ml/d.PNG",
+      "/images/ml/e.PNG"
     ],
     github_url: "https://github.com/youssef-113/Build-ML-DL-On-Student-Behavior",
     type: "ds",
@@ -506,16 +592,16 @@ export const PROJECTS: Project[] = [
     featured: false
   },
   {
-    id: "p8",
+    id: "p10",
     title: "Adidas Sales Forecasting Analytics",
     short_description: "Comprehensive sales forecasting and analytics dashboard for Adidas dataset as part of BrainWave Matrix internship.",
     long_description: "Time series analysis and forecasting project using ARIMA models with detailed visualizations and performance metrics for sales prediction.",
     tech_stack: ["Python", "Pandas", "Matplotlib", "Scikit-learn", "Time Series", "ARIMA"],
-    thumbnail_url: "/Images/ML/arima_forecast.png",
+    thumbnail_url: "/images/ml/arima_forecast.png",
     gallery_images: [
-      "/Images/ML/arima_forecast.png",
-      "/Images/ML/dd.PNG",
-      "/Images/ML/g.PNG"
+      "/images/ml/arima_forecast.png",
+      "/images/ml/dd.PNG",
+      "/images/ml/g.PNG"
     ],
     github_url: "https://github.com/youssef-113/BrainWave-Matrix-Adidas-Sales-Forecasting-Analytics",
     type: "ds",
@@ -523,7 +609,7 @@ export const PROJECTS: Project[] = [
     featured: false
   },
   {
-    id: "p9",
+    id: "p11",
     title: "Stock Price Prediction",
     short_description: "Stock market prediction model using machine learning algorithms as part of CodeAlpha Data Science internship.",
     tech_stack: ["Python", "Pandas", "NumPy", "Scikit-learn", "LSTM"],
@@ -534,7 +620,7 @@ export const PROJECTS: Project[] = [
     featured: false
   },
   {
-    id: "p10",
+    id: "p12",
     title: "Titanic Survival Classification",
     short_description: "Classic Titanic dataset classification using various ML algorithms to predict passenger survival rates.",
     tech_stack: ["Python", "Pandas", "Scikit-learn", "Matplotlib", "Seaborn"],
@@ -545,7 +631,7 @@ export const PROJECTS: Project[] = [
     featured: false
   },
   {
-    id: "p11",
+    id: "p13",
     title: "Data Visualization ",
     short_description: "Collection of data visualization projects showcasing various techniques and tools for insightful data storytelling.",
     tech_stack: ["Python", "Matplotlib", "Seaborn", "Plotly", "Power BI"],
@@ -556,7 +642,7 @@ export const PROJECTS: Project[] = [
     featured: false
   },
   {
-    id: "p12",
+    id: "p14",
     title: "Sales Analytics Dashboard",
     short_description: "Comprehensive Power BI dashboard for sales performance analysis with interactive visualizations and drill-through capabilities.",
     long_description: "Interactive Power BI dashboard featuring sales analytics, company performance metrics, and drill-down analysis. Includes overview dashboards, sales trends, company comparisons, and detailed drill-through views for deep data exploration.",
@@ -579,19 +665,19 @@ export const PROJECTS: Project[] = [
       "Empowered executives with executive summary views for strategic planning"
     ],
     tech_stack: ["Power BI", "DAX", "Data Modeling", "SQL", "Excel"],
-    thumbnail_url: "/Images/analysis power bi/OverView.PNG",
+    thumbnail_url: "/images/analysis-power-bi/OverView.PNG",
     gallery_images: [
-      "/Images/analysis power bi/OverView.PNG",
-      "/Images/analysis power bi/Total Sales.PNG",
-      "/Images/analysis power bi/Total Sales per Company.PNG",
-      "/Images/analysis power bi/Dril-Drow.PNG"
+      "/images/analysis-power-bi/OverView.PNG",
+      "/images/analysis-power-bi/Total Sales.PNG",
+      "/images/analysis-power-bi/Total Sales per Company.PNG",
+      "/images/analysis-power-bi/Dril-Drow.PNG"
     ],
     type: "powerbi",
     year: "2025",
     featured: true
   },
   {
-    id: "p13",
+    id: "p15",
     title: "React Admin Dashboard",
     short_description: "Modern, responsive admin dashboard built with React featuring real-time data visualization, user management, and comprehensive analytics.",
     long_description: "Full-featured admin dashboard application showcasing modern UI/UX principles with dark mode support, interactive charts, data tables, user management system, and real-time analytics. Built with React and modern JavaScript libraries for optimal performance and user experience.",
@@ -615,16 +701,16 @@ export const PROJECTS: Project[] = [
       "Enabled data-driven strategies through comprehensive analytics and insights"
     ],
     tech_stack: ["React", "JavaScript", "Chart.js", "CSS3", "Responsive Design", "REST APIs", "State Management"],
-    thumbnail_url: "/Images/dashboard react/IMG-20250806-WA0047.jpg",
+    thumbnail_url: "/images/dashboard-react/IMG-20250806-WA0047.jpg",
     gallery_images: [
-      "/Images/dashboard react/IMG-20250806-WA0047.jpg",
-      "/Images/dashboard react/IMG-20250806-WA0048.jpg",
-      "/Images/dashboard react/IMG-20250806-WA0049.jpg",
-      "/Images/dashboard react/IMG-20250806-WA0051.jpg",
-      "/Images/dashboard react/IMG-20250806-WA0052.jpg",
-      "/Images/dashboard react/IMG-20250806-WA0053.jpg",
-      "/Images/dashboard react/IMG-20250806-WA0054.jpg",
-      "/Images/dashboard react/IMG-20250806-WA0055.jpg"
+      "/images/dashboard-react/IMG-20250806-WA0047.jpg",
+      "/images/dashboard-react/IMG-20250806-WA0048.jpg",
+      "/images/dashboard-react/IMG-20250806-WA0049.jpg",
+      "/images/dashboard-react/IMG-20250806-WA0051.jpg",
+      "/images/dashboard-react/IMG-20250806-WA0052.jpg",
+      "/images/dashboard-react/IMG-20250806-WA0053.jpg",
+      "/images/dashboard-react/IMG-20250806-WA0054.jpg",
+      "/images/dashboard-react/IMG-20250806-WA0055.jpg"
     ],
     github_url: "https://github.com/youssef-113",
     type: "software",
@@ -632,7 +718,7 @@ export const PROJECTS: Project[] = [
     featured: true
   },
   {
-    id: "p14",
+    id: "p16",
     title: "Business Intelligence Analytics Dashboard",
     short_description: "Advanced Power BI dashboard providing comprehensive business insights through interactive data visualizations and KPI tracking.",
     long_description: "Enterprise-level business intelligence solution built with Power BI, delivering actionable insights through sophisticated data modeling and interactive visualizations. Features advanced DAX calculations, drill-through capabilities, custom KPIs, and dynamic filtering.",
@@ -657,15 +743,55 @@ export const PROJECTS: Project[] = [
       "Standardized KPIs across organization ensuring alignment and accountability"
     ],
     tech_stack: ["Power BI", "DAX", "Power Query", "Data Modeling", "SQL", "Business Intelligence", "ETL"],
-    thumbnail_url: "/Images/power bi analysis 2/IMG-20250807-WA0002.jpg",
+    thumbnail_url: "/images/power-bi-analysis-2/IMG-20250807-WA0002.jpg",
     gallery_images: [
-      "/Images/power bi analysis 2/IMG-20250807-WA0002.jpg",
-      "/Images/power bi analysis 2/IMG-20250807-WA0003.jpg",
-      "/Images/power bi analysis 2/IMG-20250807-WA0004.jpg",
-      "/Images/power bi analysis 2/IMG-20250807-WA0005.jpg",
-      "/Images/power bi analysis 2/IMG-20250807-WA0006.jpg"
+      "/images/power-bi-analysis-2/IMG-20250807-WA0002.jpg",
+      "/images/power-bi-analysis-2/IMG-20250807-WA0003.jpg",
+      "/images/power-bi-analysis-2/IMG-20250807-WA0004.jpg",
+      "/images/power-bi-analysis-2/IMG-20250807-WA0005.jpg",
+      "/images/power-bi-analysis-2/IMG-20250807-WA0006.jpg"
     ],
     type: "powerbi",
+    year: "2025",
+    featured: true
+  },
+  {
+    id: "p17",
+    title: "Task Manager System",
+    short_description: "Full-stack task management application with secure PHP backend and interactive frontend.",
+    long_description: "A robust task management solution designed to streamline workflow and enhance productivity. Key features include user authentication, task creation/editing/deletion, priority setting, and status tracking. The backend is built with PHP for secure server-side processing, while MySQL (via phpMyAdmin) handles complex data relationships.",
+    problem_solved: "Individuals and small teams often struggle with disorganized workflows and scattered to-do lists. This application provides a centralized platform to manage tasks efficiently, ensuring deadlines are met and priorities are clear.",
+    technical_highlights: [
+      "Developed a secure backend architecture using PHP for reliable data processing",
+      "Designed and optimized MySQL database schema using phpMyAdmin for efficient data storage",
+      "Implemented CRUD operations (Create, Read, Update, Delete) for full task lifecycle management",
+      "Created appropriate database relationships to link tasks with specific users",
+      "Built a responsive frontend interface for seamless user interaction",
+      "Ensured data integrity and security through server-side validation"
+    ],
+    business_impact: [
+      "Improved personal and team productivity by providing a clear overview of pending tasks",
+      "Enhanced data organization through structured database design",
+      "Reduced task oversight and missed deadlines with priority tracking features",
+      "Provided a scalable foundation for adding future features like team collaboration"
+    ],
+    tech_stack: ["PHP", "MySQL", "vanila JavaScript", "HTML/CSS", "phpMyAdmin", "web security", "web accessibility"],
+    thumbnail_url: "/Images/task manager/Screenshot 2025-12-28 202340.png",
+    gallery_images: [
+      "/Images/task manager/Screenshot 2025-12-28 174512.png",
+      "/Images/task manager/Screenshot 2025-12-28 192056.png",
+      "/Images/task manager/Screenshot 2025-12-28 192244.png",
+      "/Images/task manager/Screenshot 2025-12-28 193213.png",
+      "/Images/task manager/Screenshot 2025-12-28 193405.png",
+      "/Images/task manager/Screenshot 2025-12-28 193537.png",
+      "/Images/task manager/Screenshot 2025-12-28 193557.png",
+      "/Images/task manager/Screenshot 2025-12-28 193704.png",
+      "/Images/task manager/Screenshot 2025-12-28 193807.png",
+      "/Images/task manager/Screenshot 2025-12-28 193839.png",
+      "/Images/task manager/Screenshot 2025-12-28 202340.png"
+    ],
+    github_url: "https://github.com/youssef-113/TaskManager",
+    type: "software",
     year: "2025",
     featured: true
   }

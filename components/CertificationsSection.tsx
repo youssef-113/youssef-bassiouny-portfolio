@@ -88,6 +88,8 @@ const CertificationsSection: React.FC = () => {
                             <button
                                 onClick={closeModal}
                                 className="p-2 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors"
+                                title="Close"
+                                aria-label="Close modal"
                             >
                                 <X size={24} />
                             </button>

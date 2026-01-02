@@ -13,7 +13,7 @@ export interface Project {
   github_url?: string;
   notebook_url?: string;
   presentation_url?: string;
-  type: 'dataanalysis' | 'ds' | 'software' | 'powerbi';
+  type: 'data analysis' | 'ds' | 'software' | 'powerbi' | 'AI Developer';
   year: string;
   featured: boolean;
 }
