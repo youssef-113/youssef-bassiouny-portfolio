@@ -775,7 +775,7 @@ export const PROJECTS: Project[] = [
       "Reduced task oversight and missed deadlines with priority tracking features",
       "Provided a scalable foundation for adding future features like team collaboration"
     ],
-    tech_stack: ["PHP", "MySQL", "vanila JavaScript", "HTML/CSS", "phpMyAdmin", "web security", "web accessibility"],
+    tech_stack: ["PHP", "MySQL", "vanila JavaScript", "HTML/CSS", "phpMyAdmin", "web security", "web accessibility", "postman"],
     thumbnail_url: "/Images/task manager/Screenshot 2025-12-28 202340.png",
     gallery_images: [
       "/Images/task manager/Screenshot 2025-12-28 174512.png",
