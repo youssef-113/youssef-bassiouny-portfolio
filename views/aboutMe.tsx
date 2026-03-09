@@ -4,8 +4,7 @@ import { Briefcase, Calendar, Code, MapPin, User } from 'lucide-react';
 
 const Skills: React.FC = () => {
   // Typing animation state
-  const bioText = "I'm a motivated Computer Science student at Cairo University with a strong foundation in software development, Data Science, and Artificial Intelligence. Throughout my journey, I've gained extensive experience building end-to-end machine learning pipelines, creating insightful data visualization dashboards, and developing full-stack web applications. With strong problem-solving, analytical thinking, and collaboration skills, I am deeply passionate about AI innovation and automation. I excel in environments where I can leverage cutting-edge technology to solve real-world challenges—whether through predictive modeling, intelligent CRM systems, or automating complex business workflows.";
-
+const bioText = "I'm a Computer Science student at Cairo University and a Data Scientist at EYOUTH, specializing in Artificial Intelligence, Machine Learning, and Generative AI. I design and build end-to-end intelligent systems—from data processing and predictive modeling to deploying AI-powered applications. My experience includes developing advanced data analytics dashboards with Power BI, building full-stack with AI solutions(php , react), and integrating business platforms such as Odoo, CRM systems, and Shopify to automate workflows and improve decision-making. Passionate about innovation, I focus on transforming complex data into scalable AI-driven products that solve real-world problems and create measurable business impact.";
   const [displayedText, setDisplayedText] = useState('');
   const [currentIndex, setCurrentIndex] = useState(0);
   const [showCursor, setShowCursor] = useState(true);
