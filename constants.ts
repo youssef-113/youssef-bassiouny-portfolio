@@ -229,6 +229,37 @@ export const INTERNSHIPS = [
       "Implemented security measures to protect websites from attacks"
     ],
     skills: ["PHP", "MySQL", "JavaScript", "HTML", "CSS", "FileZilla", "XAMPP", "PhpMyAdmin", "Web Security"]
+  },
+  {
+    id: "i6",
+    role: "GEN AI Engineer Intern",
+    company: "Digital Egypt Pioneers Initiative (DEPI)",
+    location: "Cairo, Egypt",
+    period: "Oct 2025 – Present",
+    supervisor: "Under The Supervision of EYouth for Development",
+    description: [
+      "Mastered RAG (Retrieval-Augmented Generation) architectures and implementations",
+      "Developed expertise in LLM integration, fine-tuning, and prompt engineering",
+      "Built intelligent applications using LangChain framework and multi-RAG systems",
+      "Designed and deployed AI solutions using Docker containerization",
+      "Learned AI solution design patterns for real-world business applications"
+    ],
+    skills: ["DL","ML","RAG", "LLM", "LangChain", "Multi-RAG", "Docker", "AI Solution Design", "Prompt Engineering", "Gen AI"]
+  },
+  {
+    id: "i7",
+    role: "Product Manager Trainee",
+    company: "INJAZ Egypt",
+    location: "Cairo, Egypt",
+    period: "Jan 2026 – Mar 2026",
+    description: [
+      "Developed professional leadership and team management skills",
+      "Learned end-to-end startup building process and business model development",
+      "Gained expertise in product management lifecycle and strategy",
+      "Understood business fundamentals for startup success and market positioning",
+      "Applied product thinking to real-world business scenarios"
+    ],
+    skills: ["StartUp","Product Management", "Leadership", "Startup Building", "Business Strategy", "Team Management", "Market Analysis"]
   }
 ];
 
@@ -241,7 +272,8 @@ export const SKILLS: SkillCategory[] = [
       { name: "Scikit-learn", level: 90 },
       { name: "Collab", level: 85 },
       { name: "NLP (Hugging Face)", level: 80 },
-      { name: "Deep Learning", level: 80 }
+      { name: "Deep Learning", level: 80 },
+      {name: "CV", level: 65},
     ]
   },
   {
@@ -255,11 +287,22 @@ export const SKILLS: SkillCategory[] = [
     ]
   },
   {
+    name:"GEN AI",
+    skills: [
+      { name: "RAG", level: 85 },
+      { name: "LLM", level: 85 },
+      { name: "LangChain", level: 80 },
+      { name: "Prompt Engineering", level: 85 },
+      { name: "Multi-RAG", level: 75 },
+      { name: "AI Solution Design", level: 80 }
+    ]
+  },
+  {
     name: "Full Stack Development",
     skills: [
       { name: "React / Next.js", level: 85 },
       { name: "Node.js / Express", level: 80 },
-      { name: "PHP", level: 75 },
+      { name: "PHP", level: 90 },
       { name: "Laravel", level: 70 },
       { name: "JavaScript", level: 85 },
       { name: "HTML", level: 90 },
@@ -267,13 +310,14 @@ export const SKILLS: SkillCategory[] = [
       { name: "Bootstrap", level: 80 },
       { name: "jQuery", level: 80 },
       { name: "Tailwind CSS", level: 90 },
-      { name: "MySQL / MongoDB", level: 80 }
+      { name: "MySQL / MongoDB", level: 80 },
+      {name : "JAVA", level:65},
     ]
   },
   {
     name: "Tools & DevOps",
     skills: [
-      { name: "Git / GitHub", level: 90 },
+      { name: "Git / GitHub", level: 95 },
       { name: "Docker", level: 70 },
       { name: "Odoo", level: 65 },
       { name: "Zapier / n8n", level: 80 },
@@ -283,7 +327,8 @@ export const SKILLS: SkillCategory[] = [
       { name: "Web Security", level: 85 },
       { name: "API Development", level: 80 },
       { name: "Version Control", level: 90 },
-      { name: "CI/CD", level: 75 }
+      { name: "CI/CD", level: 75 },
+      {name:"shopify", level:60},
     ]
   }
 ];
