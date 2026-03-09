@@ -52,6 +52,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project, index }) => {
                 project.type === 'ds' ? 'Data Science' :
                   project.type === 'software' ? 'Software' :
                     project.type === 'powerbi' ? 'Power BI' :
+                    project.type === 'GEN AI' ? 'GEN AI' :
                       'Other'}
             </span>
           </div>
