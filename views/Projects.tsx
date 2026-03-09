@@ -1,10 +1,10 @@
 import React, { useState, useMemo } from 'react';
 import ProjectCard from '../components/ProjectCard';
 import { PROJECTS } from '../constants';
-import { Filter, BarChart3, Brain, Code, Database } from 'lucide-react';
+import { Filter, BarChart3, Brain, Code, Database, Sparkles } from 'lucide-react';
 
 const Projects: React.FC = () => {
-  const [filter, setFilter] = useState<'all' | 'dataanalysis' | 'ds' | 'powerbi' | 'software'>('all');
+  const [filter, setFilter] = useState<'all' | 'dataanalysis' | 'ds' | 'powerbi' | 'software' | 'GEN AI'>('all');
 
   const filteredProjects = useMemo(() => {
     if (filter === 'all') return PROJECTS;
@@ -14,6 +14,8 @@ const Projects: React.FC = () => {
     if (filter === 'ds') return PROJECTS.filter(p => p.type === 'ds');
     // Power BI shows only powerbi projects
     if (filter === 'powerbi') return PROJECTS.filter(p => p.type === 'powerbi');
+    // GenAI shows only genai projects
+    if (filter === 'GEN AI') return PROJECTS.filter(p => p.type === 'GEN AI');
     // Software shows only software projects
     return PROJECTS.filter(p => p.type === filter);
   }, [filter]);
@@ -79,6 +81,16 @@ const Projects: React.FC = () => {
           >
             <Code size={16} />
             Software & Web
+          </button>
+          <button
+            onClick={() => setFilter('GEN AI')}
+            className={`px-4 py-2 rounded-md text-sm font-medium transition-all flex items-center gap-2 ${filter === 'GEN AI'
+              ? 'bg-white dark:bg-gray-700 text-primary shadow-sm'
+              : 'text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-200'
+              }`}
+          >
+            <Sparkles size={16} />
+            Gen AI
           </button>
         </div>
       </div>
