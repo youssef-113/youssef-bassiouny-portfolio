@@ -876,6 +876,48 @@ export const PROJECTS: Project[] = [
     type: "GEN AI",
     year: "2026",
     featured: true
+  },
+  {
+    id: "p19",
+    title: "LifeCode — Digital Health Emergency System",
+    short_description: "Full-stack emergency medical identification ecosystem with NFC wristband, AI-powered OCR, and secure cloud backend.",
+    long_description: "LifeCode is a comprehensive emergency medical identification system featuring LifeBand — a passive NFC + QR wristband that requires no battery. When scanned by any smartphone, it instantly surfaces the wearer's emergency medical profile from the cloud. Built with robust backend architecture, AI integration, and enterprise-grade security for handling sensitive health data.",
+    problem_solved: "In life-threatening emergencies, first responders lose critical time when patients are unconscious or unable to communicate their medical history, allergies, or emergency contacts. Every second of delay can cost a life. LifeCode bridges this gap by providing instant access to vital medical information through a simple scan.",
+    technical_highlights: [
+      "Architected RESTful API with GraphQL support managing full lifecycle of user medical records",
+      "Implemented API gateway with rate limiting and DDoS protection to prevent UID scraping",
+      "Designed MongoDB database with flexible document structure for varied medical records",
+      "Built Redis caching layer with 5-minute TTL for sub-10ms emergency read resolution",
+      "Developed Smart OCR pipeline for automatic extraction from medical document photos",
+      "Created NLP medical term normalization engine mapping colloquial terms to ICD-10 codes",
+      "Implemented zero-trust security: AES-256 encryption, TLS 1.3, biometric JWT authentication",
+      "Built granular field-level permissions for public vs PIN-protected data control",
+      "Developed responsive web portal optimized for desktop triage and mobile medical staff",
+      "Conducted penetration testing for NFC cloning, QR spoofing, MitM, and injection attacks"
+    ],
+    business_impact: [
+      "Reduced emergency response time by providing instant access to critical medical information",
+      "Enabled first responders to make informed decisions without patient communication",
+      "Automated medical document processing saving hours of manual data entry",
+      "Standardized medical records using ICD-10 codes for universal healthcare compatibility",
+      "Protected sensitive ePHI data with enterprise-grade security architecture",
+      "Provided 24/7 availability with battery-free NFC wristband technology",
+      "Empowered users with granular privacy controls over their medical data"
+    ],
+    tech_stack: ["Node.js", "Express", "Notion", "Security management", "Firebase", "Redis", "REST API", "AI/OCR", "NLP", "JWT", "React","Full-Stack"],
+    thumbnail_url: "/images/Life Code/Project \u201Clife band\u201D full.png",
+    gallery_images: [
+      "/images/Life Code/backend projects.png",
+      "/images/Life Code/Project \u201Clife band\u201D full.png",
+      "/images/Life Code/First prototype \u201Cband\u201D.png",
+      "/Images/Life Code/UI_UX & fronted projects.png",
+      "/Images/Life Code/notion system.png"
+    ],
+    github_url: "https://github.com/youssef-113/Life-code",
+    live_url: "https://life-code--yossfabdla311.replit.app",
+    type: "software",
+    year: "2026",
+    featured: true
   }
 ];
 
