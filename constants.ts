@@ -253,13 +253,16 @@ export const INTERNSHIPS = [
     location: "Cairo, Egypt",
     period: "Jan 2026 – Mar 2026",
     description: [
-      "Developed professional leadership and team management skills",
-      "Learned end-to-end startup building process and business model development",
-      "Gained expertise in product management lifecycle and strategy",
-      "Understood business fundamentals for startup success and market positioning",
-      "Applied product thinking to real-world business scenarios"
+      "Contributed to building startup concepts from ideation to execution, aligning product vision with real market needs and business objectives",
+      "Applied product management lifecycle practices (discovery, validation, MVP design, and iteration) to simulate real-world startup environments",
+      "Analyzed customer problems and market opportunities to support data-driven product and go-to-market decisions",
+      "Collaborated within cross-functional teams to deliver business-oriented solutions under agile methodologies",
+      "Explored different leadership and CEO management styles to understand their impact on product direction, execution speed, and team performance",
+      "Developed strategic thinking by aligning product features with user value, scalability, and business growth targets",
+      "Participated in business model design, focusing on value proposition, revenue streams, and competitive positioning",
+      "Strengthened communication and stakeholder alignment skills through pitching ideas and presenting product strategies"
     ],
-    skills: ["StartUp","Product Management", "Leadership", "Startup Building", "Business Strategy", "Team Management", "Market Analysis"]
+    skills: ["Product Management", "Startup Development", "Business Strategy", "Market Analysis", "Leadership", "Team Collaboration", "Agile Methodologies", "Problem Solving", "MVP Design", "Go-to-Market Strategy"]
   }
 ];
 
@@ -470,7 +473,7 @@ export const PROJECTS: Project[] = [
       "Enhanced customer relationship management with complete interaction history",
       "Reduced data entry errors by 50% with structured input forms"
     ],
-    tech_stack: ["React", "PHP", "SQL", "Chart.js"],
+    tech_stack: ["React", "PHP", "SQL", "Chart.js", "database mangement", "phpmyadmin", "security handle", "admin panal", "auth multi users system"],
     thumbnail_url: "/images/websit-vmax/vmax landing page.PNG",
     gallery_images: [
       "/images/websit-vmax/vmax landing page.PNG",
@@ -904,7 +907,7 @@ export const PROJECTS: Project[] = [
       "Provided 24/7 availability with battery-free NFC wristband technology",
       "Empowered users with granular privacy controls over their medical data"
     ],
-    tech_stack: ["Node.js", "Express", "Notion", "Security management", "Firebase", "Redis", "REST API", "AI/OCR", "NLP", "JWT", "React","Full-Stack"],
+    tech_stack: ["Node.js", "Express", "Notion","Replit", "DataBase management", "Security management", "Firebase", "Redis", "REST API", "AI/OCR", "NLP", "JWT", "React","Full-Stack"],
     thumbnail_url: "/images/Life Code/Project \u201Clife band\u201D full.png",
     gallery_images: [
       "/images/Life Code/backend projects.png",
@@ -915,6 +918,7 @@ export const PROJECTS: Project[] = [
     ],
     github_url: "https://github.com/youssef-113/Life-code",
     live_url: "https://life-code--yossfabdla311.replit.app",
+    presentation_url:"/Images/Life Code/LifeCode 3.0 Cataloge.pdf",
     type: "software",
     year: "2026",
     featured: true
