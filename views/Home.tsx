@@ -140,7 +140,7 @@ const Home: React.FC = () => {
             <div className="relative w-full h-full rounded-3xl overflow-hidden border-2 border-white/10 shadow-2xl transform rotate-3 group-hover:rotate-0 transition-all duration-500 bg-dark-card">
               <div className="absolute inset-0 bg-gradient-to-tr from-primary/20 to-secondary/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500 z-10 pointer-events-none"></div>
               <img
-                src={HERO_CONTENT.image || "/images/profile.jpg"}
+                src={HERO_CONTENT.image || "/images/formal photo.jpg"}
                 alt={HERO_CONTENT.name}
                 className="w-full h-full object-cover object-top transition-transform duration-700 group-hover:scale-105"
               />
