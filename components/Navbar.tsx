@@ -38,7 +38,7 @@ const Navbar: React.FC = () => {
           <Link to="/" className="flex-shrink-0 flex items-center gap-3 group">
             <div className="relative w-10 h-10 md:w-12 md:h-12 overflow-hidden rounded-xl border border-gray-200 dark:border-gray-700 bg-white dark:bg-dark-card p-1 transition-transform group-hover:scale-105">
               <img
-                src="Images\Logo.jpg"
+                src="/images/website-logo.jpg"
                 alt="YB Logo"
                 className="w-full h-full object-contain"
               />
