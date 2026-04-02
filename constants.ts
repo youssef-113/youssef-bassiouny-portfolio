@@ -97,7 +97,7 @@ export const HERO_CONTENT = {
   name: "Youssef Bassiouny",
   role: "Data Scientist, ML Engineer & Full-Stack Developer",
   bio: "I build AI-powered and data-driven products, machine learning systems, and full-stack applications. I specialize in Python for ML/DL and Generative AI, data analytics with Power BI, and modern web technologies. I design reproducible ML pipelines, intelligent dashboards, and production-ready systems, including CRM, Odoo, and Shopify integrations to automate business workflows.",
-  image: "/images/profile.jpg"
+  image: "/images/formal photo.jpg"
 };
 
 export const EXPERIENCE: Experience[] = [
