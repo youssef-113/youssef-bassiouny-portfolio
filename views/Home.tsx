@@ -121,7 +121,7 @@ const Home: React.FC = () => {
               Contact Me
             </Link>
             <a
-              href="/Youssef Bassiony - Data Scientist and software Engineer Dev .pdf"
+              href="/Youssef Bassiony - GEN AI eng & software Dev.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="px-4 sm:px-6 py-2.5 sm:py-3 border border-gray-300 dark:border-gray-700 rounded-lg hover:bg-gray-100 dark:hover:bg-dark-card transition-all flex items-center justify-center gap-2 text-sm sm:text-base"
