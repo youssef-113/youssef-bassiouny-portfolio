@@ -8,12 +8,12 @@ export interface Project {
   business_impact?: string[]; // Business benefits and outcomes
   tech_stack: string[];
   thumbnail_url: string;
-  gallery_images?: string[]; // For projects with multiple screenshots (e.g., Power BI dashboards)
+  gallery_images?: string[]; // For projects with multiple screenshots (e.g., Power BI dashboarData science)
   live_url?: string;
   github_url?: string;
   notebook_url?: string;
   presentation_url?: string;
-  type: 'data analysis' | 'ds' | 'software' | 'powerbi' | 'AI Developer' | 'GEN AI';
+  type: 'data analysis' | 'Data science' | 'software Engineer' | 'powerbi' | 'AI Developer' | 'GEN AI' | 'RAG';
   year: string;
   featured: boolean;
 }

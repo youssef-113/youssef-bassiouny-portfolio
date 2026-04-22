@@ -42,13 +42,13 @@ const ProjectDetailsModal: React.FC<ProjectDetailsModalProps> = ({ project, isOp
                             <div className="flex-1">
                                 <div className="flex items-center gap-3 mb-2">
                                     <span className={`text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider ${project.type === 'data analysis' ? 'bg-green-500/30 border border-green-300' :
-                                        project.type === 'ds' ? 'bg-purple-500/30 border border-purple-300' :
-                                            project.type === 'software' ? 'bg-blue-500/30 border border-blue-300' :
+                                        project.type === 'Data science' ? 'bg-purple-500/30 border border-purple-300' :
+                                            project.type === 'software Engineer' ? 'bg-blue-500/30 border border-blue-300' :
                                                 'bg-amber-500/30 border border-amber-300'
                                         }`}>
                                         {project.type === 'data analysis' ? 'Data Analysis' :
-                                            project.type === 'ds' ? 'Data Science' :
-                                                project.type === 'software' ? 'Software' :
+                                            project.type === 'Data science' ? 'Data Science' :
+                                                project.type === 'software Engineer' ? 'software Engineer' :
                                                     'Power BI'}
                                     </span>
                                     <span className="text-sm opacity-90">{project.year}</span>

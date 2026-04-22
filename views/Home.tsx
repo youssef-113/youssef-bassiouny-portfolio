@@ -121,7 +121,7 @@ const Home: React.FC = () => {
               Contact Me
             </Link>
             <a
-              href="/Youssef Bassiony - Data Scientist and software Dev .pdf"
+              href="/Youssef Bassiony - Data Scientist and software Engineer Dev .pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="px-4 sm:px-6 py-2.5 sm:py-3 border border-gray-300 dark:border-gray-700 rounded-lg hover:bg-gray-100 dark:hover:bg-dark-card transition-all flex items-center justify-center gap-2 text-sm sm:text-base"
@@ -152,7 +152,7 @@ const Home: React.FC = () => {
                 <div className="w-3 h-3 rounded-full bg-green-500 animate-pulse"></div>
                 <div>
                   <p className="text-xs text-gray-500 dark:text-gray-400 font-medium">Current Status</p>
-                  <p className="text-sm font-bold text-gray-900 dark:text-white">Working Ds and AI</p>
+                  <p className="text-sm font-bold text-gray-900 dark:text-white">Working Data science and AI</p>
                 </div>
               </div>
             </div>

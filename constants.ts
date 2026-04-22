@@ -17,7 +17,7 @@ export const SOCIAL_LINKS = {
   location: "Nasr City, Cairo, Egypt"
 };
 
-// Social Media Cards Configuration for Contact Page
+// Social Media Card Configuration for Contact Page
 export const SOCIAL_MEDIA_CARDS = [
   {
     name: "GitHub",
@@ -96,7 +96,7 @@ export const SOCIAL_MEDIA_CARDS = [
 export const HERO_CONTENT = {
   name: "Youssef Bassiouny",
   role: "Data Scientist, ML Engineer & Full-Stack Developer",
-  bio: "I build AI-powered and data-driven products, machine learning systems, and full-stack applications. I specialize in Python for ML/DL and Generative AI, data analytics with Power BI, and modern web technologies. I design reproducible ML pipelines, intelligent dashboards, and production-ready systems, including CRM, Odoo, and Shopify integrations to automate business workflows.",
+  bio: "I build AI-powered and data-driven products, machine learning systems, and full-stack applications. I specialize in Python for ML/DL and Generative AI, data analytics with Power BI, and modern web technologies. I design reproducible ML pipelines, intelligent dashboarData science, and production-ready systems, including CRM, Odoo, and Shopify integrations to automate business workflows.",
   image: "/images/formal-photo.jpg"
 };
 
@@ -109,7 +109,7 @@ export const EXPERIENCE: Experience[] = [
     type: "work",
     description: [
       "Deployed a full pipeline data science applied Python (pandas, scikit-learn).",
-      "Developed interactive dashboards using Power BI, React, and Streamlit, improving data accessibility by 35%.",
+      "Developed interactive dashboarData science using Power BI, React, and Streamlit, improving data accessibility by 35%.",
       "Worked on CRM 8X to manage sales deals and generate business insights.",
       "Designed CRM Callbacks with PHP and React."
     ]
@@ -155,7 +155,7 @@ export const EDUCATION: Education[] = [
     degree: "B.Sc. in Computer Science",
     institution: "Cairo University – Faculty of Science",
     period: "2022 - Present",
-    details: "Coursework: Data Structures & Algorithms, Database Systems, Machine Learning, Software Engineering, Operating Systems."
+    details: "Coursework: Data Structures & Algorithms, Database Systems, Machine Learning, software Engineer Engineering, Operating Systems."
   }
 ];
 
@@ -170,7 +170,7 @@ export const INTERNSHIPS = [
     supervisor: "Under The Supervision of EYouth for Development",
     description: [
       "Analyzed datasets and developed models using Python and Scikit-learn",
-      "Built dashboards to communicate insights using Python and Power BI",
+      "Built dashboarData science to communicate insights using Python and Power BI",
       "Collaborated in teams to deliver scalable ML solutions for real-world problems"
     ],
     skills: ["Python", "Scikit-learn", "Pandas", "Power BI", "Machine Learning", "Data Analysis"]
@@ -196,7 +196,7 @@ export const INTERNSHIPS = [
     location: "Remote",
     period: "April 2025 – June 2025",
     description: [
-      "Engineered a data science bootcamp with hands-on projects and assessments",
+      "Engineered a data science bootcamp with hanData science-on projects and assessments",
       "Resulted in 80% of participants reporting successful job placement within three months",
       "Demonstrated program effectiveness through comprehensive training delivery"
     ],
@@ -253,7 +253,7 @@ export const INTERNSHIPS = [
     location: "Cairo, Egypt",
     period: "Jan 2026 – Mar 2026",
     description: [
-      "Contributed to building startup concepts from ideation to execution, aligning product vision with real market needs and business objectives",
+      "Contributed to building startup concepts from ideation to execution, aligning product vision with real market neeData science and business objectives",
       "Applied product management lifecycle practices (discovery, validation, MVP design, and iteration) to simulate real-world startup environments",
       "Analyzed customer problems and market opportunities to support data-driven product and go-to-market decisions",
       "Collaborated within cross-functional teams to deliver business-oriented solutions under agile methodologies",
@@ -357,7 +357,7 @@ export const PROJECTS: Project[] = [
       "Improved communication efficiency with real-time messaging between 200+ users",
       "Enhanced training coordination leading to better team performance",
       "Eliminated paper-based tracking, saving costs and improving data accuracy",
-      "Enabled data-driven decision making through comprehensive analytics dashboards",
+      "Enabled data-driven decision making through comprehensive analytics dashboarData science",
       "Increased user satisfaction with mobile-friendly interface for coaches and players"
     ],
     tech_stack: ["PHP", "MySQL", "JavaScript", "Security"],
@@ -377,7 +377,7 @@ export const PROJECTS: Project[] = [
     ],
     github_url: "https://github.com/youssef-113",
     presentation_url: "/images/al-ahly-crm/Al ahly club CRM.pdf",
-    type: "software",
+    type: "software Engineer",
     year: "2025",
     featured: true
   },
@@ -389,10 +389,10 @@ export const PROJECTS: Project[] = [
     problem_solved: "Car dealerships struggled with inventory management and sales planning due to lack of accurate demand forecasting. This led to overstocking slow-moving models and understocking popular ones, resulting in lost revenue and increased holding costs.",
     technical_highlights: [
       "Performed comprehensive data cleaning handling missing values, outliers, and inconsistencies",
-      "Conducted exploratory data analysis (EDA) to identify sales patterns and trends",
+      "Conducted exploratory data analysis (EDA) to identify sales patterns and trenData science",
       "Built ARIMA time series models for accurate sales forecasting",
       "Engineered features including seasonality indicators and lag variables",
-      "Created interactive Power BI dashboards with drill-through capabilities",
+      "Created interactive Power BI dashboarData science with drill-through capabilities",
       "Implemented DAX calculations for dynamic KPIs and metrics",
       "Achieved 85% forecast accuracy through model optimization and validation"
     ],
@@ -413,7 +413,7 @@ export const PROJECTS: Project[] = [
       "/images/forcast-car-sales/Dril-Drow.PNG"
     ],
     github_url: "https://github.com/youssef-113",
-    type: "ds",
+    type: "Data science",
     year: "2025",
     featured: true
   },
@@ -444,7 +444,7 @@ export const PROJECTS: Project[] = [
     thumbnail_url: "/images/projects/gan.png",
     github_url: "https://github.com/youssef-113",
     notebook_url: "https://colab.research.google.com/",
-    type: "ds",
+    type: "Data science",
     year: "2025",
     featured: true
   },
@@ -452,11 +452,11 @@ export const PROJECTS: Project[] = [
     id: "p4",
     title: "VMAX Sales CRM Website",
     short_description: "Web-based CRM system to streamline sales tracking and deal management with analytics.",
-    long_description: "Full-featured CRM platform with role-based dashboards for managers and salespeople, landing page, and comprehensive analytics for tracking deals and sales performance.",
-    problem_solved: "VMAX company struggled with scattered sales data across spreadsheets and emails. Sales teams lacked visibility into deal pipelines, managers couldn't track team performance effectively, and lost deals went unanalyzed, resulting in missed revenue opportunities and inefficient sales processes.",
+    long_description: "Full-featured CRM platform with role-based dashboarData science for managers and salespeople, landing page, and comprehensive analytics for tracking deals and sales performance.",
+    problem_solved: "VMAX company struggled with scattered sales data across spreaData scienceheets and emails. Sales teams lacked visibility into deal pipelines, managers couldn't track team performance effectively, and lost deals went unanalyzed, resulting in missed revenue opportunities and inefficient sales processes.",
     technical_highlights: [
       "Built full-stack application with React frontend and PHP backend",
-      "Implemented role-based dashboards (Manager vs. Salesperson views)",
+      "Implemented role-based dashboarData science (Manager vs. Salesperson views)",
       "Created RESTful APIs for seamless data synchronization",
       "Integrated Chart.js for real-time sales analytics visualization",
       "Designed MySQL database schema for deals, contacts, and activities",
@@ -482,7 +482,7 @@ export const PROJECTS: Project[] = [
       "/images/websit-vmax/salesman-dash.PNG"
     ],
     github_url: "https://github.com/youssef-113",
-    type: "software",
+    type: "software Engineer",
     year: "2025",
     featured: false
   },
@@ -498,7 +498,7 @@ export const PROJECTS: Project[] = [
       "Integrated Salla e-commerce platform with Odoo for automated order synchronization",
       "Integrated Shopify store with Odoo enabling real-time inventory management",
       "Developed custom modules and workflows for business-specific requirements",
-      "Implemented automated sales reporting and analytics dashboards",
+      "Implemented automated sales reporting and analytics dashboarData science",
       "Created data migration scripts to transfer legacy data into Odoo",
       "Configured role-based access control for different departments",
       "Optimized database queries and indexing for improved system performance",
@@ -513,7 +513,7 @@ export const PROJECTS: Project[] = [
       "Enabled data-driven decision making with comprehensive sales analytics",
       "Increased team productivity by 40% through streamlined processes",
       "Reduced system errors by 85% with automated integrations",
-      "Provided executive visibility into business metrics with real-time dashboards",
+      "Provided executive visibility into business metrics with real-time dashboarData science",
       "Positioned company for scalable growth with robust ERP foundation"
     ],
     tech_stack: ["Odoo", "Python", "PostgreSQL", "Salla API", "Shopify API", "REST APIs", "Database Design", "ERP Systems"],
@@ -536,7 +536,7 @@ export const PROJECTS: Project[] = [
     title: "AI Chatbot Automation & Multi-Platform Integration",
     short_description: "Intelligent chatbot with fine-tuned LLM integrated across website and social media for automated customer support.",
     long_description: "Advanced AI-powered chatbot system built for freelance client, featuring fine-tuned LLM trained on Salla e-commerce data. Integrated seamlessly across website and social media platforms to provide instant, intelligent customer support and handle repetitive inquiries automatically.",
-    problem_solved: "Customer support team was overwhelmed with repetitive questions across multiple platforms (website, Facebook, Instagram, WhatsApp). Response times averaged 2-4 hours, leading to customer frustration and lost sales. The team spent 70% of their time answering the same questions about products, shipping, and returns, leaving little time for complex customer issues.",
+    problem_solved: "Customer support team was overwhelmed with repetitive questions across multiple platforms (website, Facebook, Instagram, WhatsApp). Response times aveRAGed 2-4 hours, leading to customer frustration and lost sales. The team spent 70% of their time answering the same questions about products, shipping, and returns, leaving little time for complex customer issues.",
     technical_highlights: [
       "Fine-tuned LLM (Large Language Model) on custom Salla e-commerce dataset",
       "Trained AI on product catalogs, FAQs, shipping policies, and historical customer interactions",
@@ -550,7 +550,7 @@ export const PROJECTS: Project[] = [
       "Set up continuous learning pipeline to improve responses based on feedback"
     ],
     business_impact: [
-      "Reduced average response time from 2-4 hours to under 30 seconds",
+      "Reduced aveRAGe response time from 2-4 hours to under 30 seconData science",
       "Handled 80% of customer inquiries automatically without human intervention",
       "Freed up customer support team to focus on complex issues and sales",
       "Increased customer satisfaction scores by 45% due to instant responses",
@@ -577,7 +577,7 @@ export const PROJECTS: Project[] = [
     title: "Fine-Tuned BERT Sentiment Classifier",
     short_description: "BERT-based text classifier using Hugging Face transformers achieving 91% accuracy.",
     long_description: "State-of-the-art NLP project fine-tuning BERT model for sentiment analysis. Achieved 91% accuracy on customer review classification using transfer learning and Hugging Face transformers library.",
-    problem_solved: "Companies needed to analyze thousands of customer reviews manually to understand sentiment, which was time-consuming, subjective, and inconsistent. Automated sentiment analysis was needed to scale feedback processing and derive actionable insights from customer opinions.",
+    problem_solved: "Companies needed to analyze thousanData science of customer reviews manually to understand sentiment, which was time-consuming, subjective, and inconsistent. Automated sentiment analysis was needed to scale feedback processing and derive actionable insights from customer opinions.",
     technical_highlights: [
       "Fine-tuned pre-trained BERT model using Hugging Face Transformers",
       "Implemented transfer learning reducing training time by 80%",
@@ -591,7 +591,7 @@ export const PROJECTS: Project[] = [
       "Automated sentiment analysis of 10,000+ customer reviews per day",
       "Reduced manual review time from 40 hours/week to near-zero",
       "Improved customer service response time by 60% with priority flagging",
-      "Identified product issues 3 weeks earlier through negative sentiment trends",
+      "Identified product issues 3 weeks earlier through negative sentiment trenData science",
       "Enhanced product development with structured feedback insights",
       "Increased customer satisfaction through faster issue resolution"
     ],
@@ -599,7 +599,7 @@ export const PROJECTS: Project[] = [
     thumbnail_url: "/images/projects/bert.png",
     github_url: "https://github.com/youssef-113",
     notebook_url: "https://huggingface.co/",
-    type: "ds",
+    type: "Data science",
     year: "2025",
     featured: false
   },
@@ -616,7 +616,7 @@ export const PROJECTS: Project[] = [
       "/images/ml/h.PNG"
     ],
     github_url: "https://github.com/youssef-113/Classification-Model-Mushroom-dataset",
-    type: "ds",
+    type: "Data science",
     year: "2025",
     featured: false
   },
@@ -635,7 +635,7 @@ export const PROJECTS: Project[] = [
       "/images/ml/e.PNG"
     ],
     github_url: "https://github.com/youssef-113/Build-ML-DL-On-Student-Behavior",
-    type: "ds",
+    type: "Data science",
     year: "2024",
     featured: false
   },
@@ -652,7 +652,7 @@ export const PROJECTS: Project[] = [
       "/images/ml/g.PNG"
     ],
     github_url: "https://github.com/youssef-113/BrainWave-Matrix-Adidas-Sales-Forecasting-Analytics",
-    type: "ds",
+    type: "Data science",
     year: "2024",
     featured: false
   },
@@ -663,7 +663,7 @@ export const PROJECTS: Project[] = [
     tech_stack: ["Python", "Pandas", "NumPy", "Scikit-learn", "LSTM"],
     thumbnail_url: "/images/projects/stock-prediction.png",
     github_url: "https://github.com/youssef-113/CoseAlpha_STOCK-_PREDICTION",
-    type: "ds",
+    type: "Data science",
     year: "2024",
     featured: false
   },
@@ -674,7 +674,7 @@ export const PROJECTS: Project[] = [
     tech_stack: ["Python", "Pandas", "Scikit-learn", "Matplotlib", "Seaborn"],
     thumbnail_url: "/images/projects/titanic.png",
     github_url: "https://github.com/youssef-113/CodeAlpha_Titanic_Classification",
-    type: "ds",
+    type: "Data science",
     year: "2024",
     featured: false
   },
@@ -685,7 +685,7 @@ export const PROJECTS: Project[] = [
     tech_stack: ["Python", "Matplotlib", "Seaborn", "Plotly", "Power BI"],
     thumbnail_url: "/images/projects/data-viz.png",
     github_url: "https://github.com/youssef-113/Data-Visualization",
-    type: "ds",
+    type: "Data science",
     year: "2024",
     featured: false
   },
@@ -693,20 +693,20 @@ export const PROJECTS: Project[] = [
     id: "p14",
     title: "Sales Analytics Dashboard",
     short_description: "Comprehensive Power BI dashboard for sales performance analysis with interactive visualizations and drill-through capabilities.",
-    long_description: "Interactive Power BI dashboard featuring sales analytics, company performance metrics, and drill-down analysis. Includes overview dashboards, sales trends, company comparisons, and detailed drill-through views for deep data exploration.",
-    problem_solved: "Sales teams lacked unified visibility into performance metrics across different companies and time periods. Managers spent hours compiling sales reports manually from Excel spreadsheets, leading to delayed insights and inability to quickly identify underperforming areas or top sellers.",
+    long_description: "Interactive Power BI dashboard featuring sales analytics, company performance metrics, and drill-down analysis. Includes overview dashboarData science, sales trenData science, company comparisons, and detailed drill-through views for deep data exploration.",
+    problem_solved: "Sales teams lacked unified visibility into performance metrics across different companies and time perioData science. Managers spent hours compiling sales reports manually from Excel spreaData scienceheets, leading to delayed insights and inability to quickly identify underperforming areas or top sellers.",
     technical_highlights: [
       "Built comprehensive data model integrating sales data from multiple sources",
       "Created dynamic DAX measures for total sales, growth rates, and comparisons",
       "Implemented drill-through functionality for detailed company-level analysis",
       "Designed interactive filters for time period, company, and product categories",
-      "Developed KPI cards showing key metrics at a glance",
+      "Developed KPI carData science showing key metrics at a glance",
       "Created comparative visualizations highlighting top and bottom performers",
       "Optimized report performance with data aggregation techniques"
     ],
     business_impact: [
       "Reduced report generation time from 4 hours to real-time instant access",
-      "Enabled sales managers to identify trends 70% faster",
+      "Enabled sales managers to identify trenData science 70% faster",
       "Improved forecast accuracy by 25% through better visibility into patterns",
       "Facilitated data-driven decisions on resource allocation and territory planning",
       "Increased sales team accountability with transparent performance tracking",
@@ -729,7 +729,7 @@ export const PROJECTS: Project[] = [
     title: "React Admin Dashboard",
     short_description: "Modern, responsive admin dashboard built with React featuring real-time data visualization, user management, and comprehensive analytics.",
     long_description: "Full-featured admin dashboard application showcasing modern UI/UX principles with dark mode support, interactive charts, data tables, user management system, and real-time analytics. Built with React and modern JavaScript libraries for optimal performance and user experience.",
-    problem_solved: "Businesses needed a unified platform to monitor key metrics, manage users, and visualize data without switching between multiple tools. Traditional dashboards were slow, non-responsive, and lacked real-time updates, hindering quick decision-making and operational efficiency.",
+    problem_solved: "Businesses needed a unified platform to monitor key metrics, manage users, and visualize data without switching between multiple tools. Traditional dashboarData science were slow, non-responsive, and lacked real-time updates, hindering quick decision-making and operational efficiency.",
     technical_highlights: [
       "Built with React and modern hooks for efficient state management",
       "Implemented Chart.js for dynamic, interactive data visualizations",
@@ -761,7 +761,7 @@ export const PROJECTS: Project[] = [
       "/images/dashboard-react/IMG-20250806-WA0055.jpg"
     ],
     github_url: "https://github.com/youssef-113",
-    type: "software",
+    type: "software Engineer",
     year: "2025",
     featured: true
   },
@@ -782,7 +782,7 @@ export const PROJECTS: Project[] = [
       "Created professional, executive-ready visualizations and storytelling"
     ],
     business_impact: [
-      "Reduced reporting time from days to minutes with automated dashboards",
+      "Reduced reporting time from days to minutes with automated dashboarData science",
       "Enabled self-service analytics empowering managers to explore data independently",
       "Improved decision quality with real-time access to accurate business metrics",
       "Identified cost-saving opportunities worth 15% through data analysis",
@@ -811,7 +811,7 @@ export const PROJECTS: Project[] = [
     problem_solved: "Individuals and small teams often struggle with disorganized workflows and scattered to-do lists. This application provides a centralized platform to manage tasks efficiently, ensuring deadlines are met and priorities are clear.",
     technical_highlights: [
       "Developed a secure backend architecture using PHP for reliable data processing",
-      "Designed and optimized MySQL database schema using phpMyAdmin for efficient data storage",
+      "Designed and optimized MySQL database schema using phpMyAdmin for efficient data stoRAGe",
       "Implemented CRUD operations (Create, Read, Update, Delete) for full task lifecycle management",
       "Created appropriate database relationships to link tasks with specific users",
       "Built a responsive frontend interface for seamless user interaction",
@@ -839,7 +839,7 @@ export const PROJECTS: Project[] = [
       "/images/task-manager/Screenshot 2025-12-28 202340.png"
     ],
     github_url: "https://github.com/youssef-113/TaskManager",
-    type: "software",
+    type: "software Engineer",
     year: "2025",
     featured: true
   },
@@ -863,7 +863,7 @@ export const PROJECTS: Project[] = [
       "Reduced document analysis time from hours to minutes with instant Q&A",
       "Enabled non-technical users to extract insights from complex documents",
       "Improved information retrieval accuracy with semantic understanding",
-      "Eliminated manual searching through hundreds of pages",
+      "Eliminated manual searching through hundreData science of pages",
       "Provided 24/7 document assistance without human intervention",
       "Streamlined research and decision-making processes"
     ],
@@ -887,9 +887,9 @@ export const PROJECTS: Project[] = [
     long_description: "LifeCode is a comprehensive emergency medical identification system featuring LifeBand — a passive NFC + QR wristband that requires no battery. When scanned by any smartphone, it instantly surfaces the wearer's emergency medical profile from the cloud. Built with robust backend architecture, AI integration, and enterprise-grade security for handling sensitive health data.",
     problem_solved: "In life-threatening emergencies, first responders lose critical time when patients are unconscious or unable to communicate their medical history, allergies, or emergency contacts. Every second of delay can cost a life. LifeCode bridges this gap by providing instant access to vital medical information through a simple scan.",
     technical_highlights: [
-      "Architected RESTful API with GraphQL support managing full lifecycle of user medical records",
+      "Architected RESTful API with GraphQL support managing full lifecycle of user medical recorData science",
       "Implemented API gateway with rate limiting and DDoS protection to prevent UID scraping",
-      "Designed MongoDB database with flexible document structure for varied medical records",
+      "Designed MongoDB database with flexible document structure for varied medical recorData science",
       "Built Redis caching layer with 5-minute TTL for sub-10ms emergency read resolution",
       "Developed Smart OCR pipeline for automatic extraction from medical document photos",
       "Created NLP medical term normalization engine mapping colloquial terms to ICD-10 codes",
@@ -902,7 +902,7 @@ export const PROJECTS: Project[] = [
       "Reduced emergency response time by providing instant access to critical medical information",
       "Enabled first responders to make informed decisions without patient communication",
       "Automated medical document processing saving hours of manual data entry",
-      "Standardized medical records using ICD-10 codes for universal healthcare compatibility",
+      "Standardized medical recorData science using ICD-10 codes for universal healthcare compatibility",
       "Protected sensitive ePHI data with enterprise-grade security architecture",
       "Provided 24/7 availability with battery-free NFC wristband technology",
       "Empowered users with granular privacy controls over their medical data"
@@ -919,7 +919,60 @@ export const PROJECTS: Project[] = [
     github_url: "https://github.com/youssef-113/Life-code",
     live_url: "https://life-code--yossfabdla311.replit.app",
     presentation_url:"/Images/Life Code/LifeCode 3.0 Cataloge.pdf",
-    type: "software",
+    type: "software Engineer",
+    year: "2026",
+    featured: true
+  },
+  {
+    id: "p20",
+    title: "Docmind — AI Document Intelligence Platform",
+    short_description: "Enterprise-grade RAG system with multi-modal document analysis, SQL intelligence, persistent memory, and agentic workflows.",
+    long_description: "Docmind is a production-grade, multi-modal document analysis system that transforms how organizations interact with unstructured data. Built with FastAPI, React, and advanced LLM orchestration, it delivers intelligent Q&A, data analysis, spreaData scienceheet intelligence, SQL schema analysis, and persistent chat memory through a unified interface. Unlike basic chat-with-PDF tools, Docmind provides enterprise memory, advanced LLM orchestration with self-reflection, and multi-modal analysis capabilities.",
+    problem_solved: "Organizations are drowning in unstructured documents—PDFs, spreaData scienceheets, databases—without efficient ways to extract insights. Manual document review is time-intensive (hours spent reading 1000+ page documents), error-prone (human analysts miss critical connections), and non-scalable (linear relationship between document volume and headcount). Docmind solves this with 85% reduction in document research time through AI-powered analysis.",
+    technical_highlights: [
+      "Built FastAPI backend with async-native architecture, automatic OpenAPI docs, and Pydantic validation",
+      "Implemented RAG (Retrieval-Augmented Generation) pipeline with FAISS vector store for semantic search",
+      "Created QAService with document chunking, embedding generation, and context-aware answering with source attribution",
+      "Developed SQLAnalysisService for automatic schema parsing, relationship detection, and NL-to-SQL generation",
+      "Built DataAnalysisService for spreaData scienceheet intelligence (Excel/CSV) with anomaly detection and growth insights",
+      "Implemented ChatMemoryService with SQLite-backed persistent sessions and full-text search capabilities",
+      "Integrated Groq LLM (LLaMA 3.3) with retry logic, exponential backoff, and agentic workflows with self-reflection",
+      "Created React 18 frontend with Vite, TailwindCSS, resizable sidebar, and animated loading states",
+      "Implemented rate limiting (10 req/min), SQL injection detection, and file upload sanitization for security",
+      "Added Docker containerization for easy deployment and production scalability"
+    ],
+    business_impact: [
+      "85% reduction in document research time through intelligent Q&A with persistent chat memory",
+      "12-15 hours/week saved per knowledge worker through automated document analysis",
+      "40% decrease in manual data extraction errors with AI-powered insights",
+      "10x document volume handling without proportional headcount increase",
+      "Enabled real-time spreaData scienceheet analysis without Excel expertise required",
+      "Provided SQL schema documentation and query generation for faster developer onboarding",
+      "Delivered cross-session knowledge retention improving long-term research efficiency",
+      "REST API enables workflow embedding in existing systems within 2 weeks",
+      "Replaced 3-4 separate tools (document Q&A, data analysis, SQL tools) with unified platform",
+      "Target industries: Legal (contract analysis), Finance (earnings reports), Healthcare (research synthesis), Consulting (RFP generation)"
+    ],
+    tech_stack: ["Python", "FastAPI", "React", "TypeScript", "LangChain", "FAISS", "SQLite", "Groq LLM", "LLaMA 3.3", "RAG", "Docker", "TailwindCSS", "Vite", "Groq Ai"],
+    thumbnail_url: "/images/Docmind/a-futuristic-digital-banner-showcasing-a_IjXkJRaxSGu3ZbVLb097cA_ZSsOxX6AQ42Fz0P1pBlFLQ.jpeg",
+    gallery_images: [
+      "/images/Docmind/a-futuristic-digital-banner-showcasing-a_IjXkJRaxSGu3ZbVLb097cA_ZSsOxX6AQ42Fz0P1pBlFLQ.jpeg",
+      "/images/Docmind/a-futuristic-ai-logo-design-featuring-a-_Dxp0PrqVQkaN7ujMwPfz5A_ZSsOxX6AQ42Fz0P1pBlFLQ.jpeg",
+      "/images/Docmind/Gemini_Generated_Image_syo8w5syo8w5syo8.png",
+      "/images/Docmind/1.png",
+      "/images/Docmind/2.png",
+      "/images/Docmind/3.png",
+      "/images/Docmind/4.png",
+      "/images/Docmind/5.png",
+      "/images/Docmind/6.png",
+      "/images/Docmind/7.png",
+      "/images/Docmind/8.png",
+      "/images/Docmind/9.png",
+      "/images/Docmind/10.png",
+      "/images/Docmind/11.png"
+    ],
+    github_url: "https://github.com/youssef-113/chat-with-pdf",
+    type: "RAG",
     year: "2026",
     featured: true
   }
@@ -985,7 +1038,7 @@ export const CERTIFICATES: Certificate[] = [
     name: "Data Science Internship",
     issuer: "CodeAlpha",
     date: "2025",
-    description: "Hands-on internship experience in data science projects and analytics",
+    description: "HanData science-on internship experience in data science projects and analytics",
     image: "/images/certifications/codealpha.png",
     skills: ["Data Science", "Python", "Analytics", "Data Wrangling", "Statistical Analysis", "Project Management"]
   },

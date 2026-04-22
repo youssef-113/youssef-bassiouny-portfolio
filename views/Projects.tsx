@@ -4,20 +4,23 @@ import { PROJECTS } from '../constants';
 import { Filter, BarChart3, Brain, Code, Database, Sparkles } from 'lucide-react';
 
 const Projects: React.FC = () => {
-  const [filter, setFilter] = useState<'all' | 'dataanalysis' | 'ds' | 'powerbi' | 'software' | 'GEN AI'>('all');
+  const [filter, setFilter] = useState<'all' | 'dataanalysis' | 'Data science' | 'powerbi' | 'software Engineer' | 'Generative AI' | 'RAG'>('all');
 
   const filteredProjects = useMemo(() => {
     if (filter === 'all') return PROJECTS;
-    // Data Analysis includes both 'dataanalysis' and 'powerbi' projects
+    // Data Analysis includes both 'data analysis' and 'powerbi' projects
     if (filter === 'dataanalysis') return PROJECTS.filter(p => p.type === 'data analysis' || p.type === 'powerbi');
-    // Data Science shows only 'ds' projects
-    if (filter === 'ds') return PROJECTS.filter(p => p.type === 'ds');
+    // Data Science shows only 'Data science' projects
+    if (filter === 'Data science') return PROJECTS.filter(p => p.type === 'Data science');
     // Power BI shows only powerbi projects
     if (filter === 'powerbi') return PROJECTS.filter(p => p.type === 'powerbi');
-    // GenAI shows only genai projects
-    if (filter === 'GEN AI') return PROJECTS.filter(p => p.type === 'GEN AI');
-    // Software shows only software projects
-    return PROJECTS.filter(p => p.type === filter);
+    // Generative AI shows GEN AI and AI Developer projects
+    if (filter === 'Generative AI') return PROJECTS.filter(p => p.type === 'GEN AI' || p.type === 'AI Developer');
+    // RAG shows only RAG projects
+    if (filter === 'RAG') return PROJECTS.filter(p => p.type === 'RAG');
+    // software Engineer shows only software Engineer projects
+    if (filter === 'software Engineer') return PROJECTS.filter(p => p.type === 'software Engineer');
+    return PROJECTS;
   }, [filter]);
 
   return (
@@ -53,8 +56,8 @@ const Projects: React.FC = () => {
             Data Analysis
           </button>
           <button
-            onClick={() => setFilter('ds')}
-            className={`px-4 py-2 rounded-md text-sm font-medium transition-all flex items-center gap-2 ${filter === 'ds'
+            onClick={() => setFilter('Data science')}
+            className={`px-4 py-2 rounded-md text-sm font-medium transition-all flex items-center gap-2 ${filter === 'Data science'
               ? 'bg-white dark:bg-gray-700 text-primary shadow-sm'
               : 'text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-200'
               }`}
@@ -73,24 +76,34 @@ const Projects: React.FC = () => {
             Power BI
           </button>
           <button
-            onClick={() => setFilter('software')}
-            className={`px-4 py-2 rounded-md text-sm font-medium transition-all flex items-center gap-2 ${filter === 'software'
+            onClick={() => setFilter('software Engineer')}
+            className={`px-4 py-2 rounded-md text-sm font-medium transition-all flex items-center gap-2 ${filter === 'software Engineer'
               ? 'bg-white dark:bg-gray-700 text-primary shadow-sm'
               : 'text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-200'
               }`}
           >
             <Code size={16} />
-            Software & Web
+            software Engineer & Web
           </button>
           <button
-            onClick={() => setFilter('GEN AI')}
-            className={`px-4 py-2 rounded-md text-sm font-medium transition-all flex items-center gap-2 ${filter === 'GEN AI'
+            onClick={() => setFilter('Generative AI')}
+            className={`px-4 py-2 rounded-md text-sm font-medium transition-all flex items-center gap-2 ${filter === 'Generative AI'
               ? 'bg-white dark:bg-gray-700 text-primary shadow-sm'
               : 'text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-200'
               }`}
           >
             <Sparkles size={16} />
             Gen AI
+          </button>
+          <button
+            onClick={() => setFilter('RAG')}
+            className={`px-4 py-2 rounded-md text-sm font-medium transition-all flex items-center gap-2 ${filter === 'RAG'
+              ? 'bg-white dark:bg-gray-700 text-primary shadow-sm'
+              : 'text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-200'
+              }`}
+          >
+            <Brain size={16} />
+            RAG
           </button>
         </div>
       </div>
