@@ -9,17 +9,29 @@ const Projects: React.FC = () => {
   const filteredProjects = useMemo(() => {
     if (filter === 'all') return PROJECTS;
     // Data Analysis includes both 'data analysis' and 'powerbi' projects
-    if (filter === 'dataanalysis') return PROJECTS.filter(p => p.type === 'data analysis' || p.type === 'powerbi');
+    if (filter === 'dataanalysis') return PROJECTS.filter(p =>
+      Array.isArray(p.type) ? p.type.includes('data analysis') || p.type.includes('powerbi') : p.type === 'data analysis' || p.type === 'powerbi'
+    );
     // Data Science shows only 'Data science' projects
-    if (filter === 'Data science') return PROJECTS.filter(p => p.type === 'Data science');
+    if (filter === 'Data science') return PROJECTS.filter(p =>
+      Array.isArray(p.type) ? p.type.includes('Data science') : p.type === 'Data science'
+    );
     // Power BI shows only powerbi projects
-    if (filter === 'powerbi') return PROJECTS.filter(p => p.type === 'powerbi');
-    // Generative AI shows GEN AI and AI Developer projects
-    if (filter === 'Generative AI') return PROJECTS.filter(p => p.type === 'GEN AI' || p.type === 'AI Developer');
+    if (filter === 'powerbi') return PROJECTS.filter(p =>
+      Array.isArray(p.type) ? p.type.includes('powerbi') : p.type === 'powerbi'
+    );
+    // Generative AI shows Generative Ai and AI Developer projects
+    if (filter === 'Generative AI') return PROJECTS.filter(p =>
+      Array.isArray(p.type) ? p.type.includes('Generative Ai') || p.type.includes('AI Developer') : p.type === 'Generative Ai' || p.type === 'AI Developer'
+    );
     // RAG shows only RAG projects
-    if (filter === 'RAG') return PROJECTS.filter(p => p.type === 'RAG');
+    if (filter === 'RAG') return PROJECTS.filter(p =>
+      Array.isArray(p.type) ? p.type.includes('RAG') : p.type === 'RAG'
+    );
     // software Engineer shows only software Engineer projects
-    if (filter === 'software Engineer') return PROJECTS.filter(p => p.type === 'software Engineer');
+    if (filter === 'software Engineer') return PROJECTS.filter(p =>
+      Array.isArray(p.type) ? p.type.includes('software Engineer') : p.type === 'software Engineer'
+    );
     return PROJECTS;
   }, [filter]);
 
@@ -93,7 +105,7 @@ const Projects: React.FC = () => {
               }`}
           >
             <Sparkles size={16} />
-            Gen AI
+            Generative Ai
           </button>
           <button
             onClick={() => setFilter('RAG')}

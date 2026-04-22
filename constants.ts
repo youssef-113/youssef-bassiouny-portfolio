@@ -232,7 +232,7 @@ export const INTERNSHIPS = [
   },
   {
     id: "i6",
-    role: "GEN AI Engineer Intern",
+    role: "Generative Ai Engineer Intern",
     company: "Digital Egypt Pioneers Initiative (DEPI)",
     location: "Cairo, Egypt",
     period: "Oct 2025 – Present",
@@ -244,7 +244,7 @@ export const INTERNSHIPS = [
       "Designed and deployed AI solutions using Docker containerization",
       "Learned AI solution design patterns for real-world business applications"
     ],
-    skills: ["DL","ML","RAG", "LLM", "LangChain", "Multi-RAG", "Docker", "AI Solution Design", "Prompt Engineering", "Gen AI"]
+    skills: ["DL","ML","RAG", "LLM", "LangChain", "Multi-RAG", "Docker", "AI Solution Design", "Prompt Engineering", "Generative Ai"]
   },
   {
     id: "i7",
@@ -290,7 +290,7 @@ export const SKILLS: SkillCategory[] = [
     ]
   },
   {
-    name:"GEN AI",
+    name:"Generative Ai",
     skills: [
       { name: "RAG", level: 85 },
       { name: "LLM", level: 85 },
@@ -844,43 +844,6 @@ export const PROJECTS: Project[] = [
     featured: true
   },
   {
-    id: "p18",
-    title: "Chat with Docs - AI Document Assistant",
-    short_description: "Intelligent RAG-powered chatbot that lets you upload documents and have natural conversations to extract insights and get answers.",
-    long_description: "Advanced AI-powered document assistant using Retrieval-Augmented Generation (RAG) technology. Upload PDFs and documents, then chat naturally to ask questions, extract information, and get instant answers from your documents.",
-    problem_solved: "Users spend hours manually reading through lengthy PDF documents, contracts, and reports to find specific information. Traditional search (Ctrl+F) is limited and doesn't understand context or complex questions, making document analysis time-consuming and inefficient.",
-    technical_highlights: [
-      "Implemented RAG (Retrieval-Augmented Generation) architecture for accurate document-based responses",
-      "Built FastAPI backend with RESTful endpoints for document processing and chat interactions",
-      "Integrated LLM for natural language understanding and response generation",
-      "Developed document embedding system using vector databases for semantic search",
-      "Created intuitive Streamlit frontend for easy document upload and chat interface",
-      "Implemented OOP principles for modular, maintainable codebase architecture",
-      "Containerized application with Docker for easy deployment and scalability",
-      "Optimized chunking strategies for efficient document processing and retrieval"
-    ],
-    business_impact: [
-      "Reduced document analysis time from hours to minutes with instant Q&A",
-      "Enabled non-technical users to extract insights from complex documents",
-      "Improved information retrieval accuracy with semantic understanding",
-      "Eliminated manual searching through hundreData science of pages",
-      "Provided 24/7 document assistance without human intervention",
-      "Streamlined research and decision-making processes"
-    ],
-    tech_stack: ["Python", "LLM", "Gen AI", "FastAPI", "Streamlit", "Docker", "RAG", "OOP"],
-    thumbnail_url: "/images/chat with docs/Screenshot 2026-03-09 064145.png",
-    gallery_images: [
-      "/images/chat with docs/Gemini_Generated_Image_ozbawwozbawwozba.png",
-      "/images/chat with docs/Gemini_Generated_Image_syo8w5syo8w5syo8.png",
-      "/images/chat with docs/Screenshot 2026-03-09 064145.png"
-    ],
-    github_url: "https://github.com/youssef-113/chat-with-pdf",
-    live_url: "https://chat-with-pdf-y.streamlit.app/",
-    type: "GEN AI",
-    year: "2026",
-    featured: true
-  },
-  {
     id: "p19",
     title: "LifeCode — Digital Health Emergency System",
     short_description: "Full-stack emergency medical identification ecosystem with NFC wristband, AI-powered OCR, and secure cloud backend.",
@@ -972,7 +935,7 @@ export const PROJECTS: Project[] = [
       "/images/Docmind/11.png"
     ],
     github_url: "https://github.com/youssef-113/chat-with-pdf",
-    type: "RAG",
+    type: ["Generative Ai", "RAG"],
     year: "2026",
     featured: true
   }

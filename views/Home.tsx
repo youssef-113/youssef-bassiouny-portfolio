@@ -163,7 +163,7 @@ const Home: React.FC = () => {
       {/* Tech Highlights */}
       <section className="py-20 border-t border-gray-200 dark:border-gray-800">
         <div className="flex flex-wrap justify-center gap-8 md:gap-16 opacity-70 grayscale hover:grayscale-0 transition-all duration-500">
-          {['Python',"Data Analysis", 'Data Science',"GEN AI", 'php', 'javascript', 'Java', 'React', 'Node.js', 'Odoo', 'Power BI', 'AI Automation'].map(tech => (
+          {['Python',"Data Analysis", 'Data Science',"Generative Ai", 'php', 'javascript', 'Java', 'React', 'Node.js', 'Odoo', 'Power BI', 'AI Automation'].map(tech => (
             <div key={tech} className="text-xl font-bold font-display text-gray-400 hover:text-primary transition-colors cursor-default select-none">
               {tech}
             </div>

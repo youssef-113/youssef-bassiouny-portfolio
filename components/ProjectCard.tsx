@@ -40,21 +40,29 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project, index }) => {
           />
           <div className="absolute inset-0 bg-gradient-to-t from-dark-bg/80 via-transparent to-transparent opacity-60 group-hover:opacity-80 transition-opacity duration-300"></div>
 
-          {/* Type Badge */}
-          <div className="absolute top-3 right-3">
-            <span className={`text-xs font-bold px-2 py-1 rounded uppercase tracking-wider backdrop-blur-sm ${project.type === 'data analysis' ? 'bg-green-500/30 text-green-100 border border-green-500/30' :
-              project.type === 'Data science' ? 'bg-purple-500/30 text-purple-100 border border-purple-500/30' :
-                project.type === 'software Engineer' ? 'bg-blue-500/30 text-blue-100 border border-blue-500/30' :
-                  project.type === 'powerbi' ? 'bg-amber-500/30 text-amber-100 border border-amber-500/30' :
-                    'bg-gray-500/30 text-gray-100 border border-gray-500/30'
+          {/* Type Badges */}
+          <div className="absolute top-3 right-3 flex flex-col gap-1">
+            {(Array.isArray(project.type) ? project.type : [project.type]).map((t) => (
+              <span key={t} className={`text-xs font-bold px-2 py-1 rounded uppercase tracking-wider backdrop-blur-sm ${
+                t === 'data analysis' ? 'bg-green-500/30 text-green-100 border border-green-500/30' :
+                t === 'Data science' ? 'bg-purple-500/30 text-purple-100 border border-purple-500/30' :
+                t === 'software Engineer' ? 'bg-blue-500/30 text-blue-100 border border-blue-500/30' :
+                t === 'powerbi' ? 'bg-amber-500/30 text-amber-100 border border-amber-500/30' :
+                t === 'Generative Ai' ? 'bg-pink-500/30 text-pink-100 border border-pink-500/30' :
+                t === 'RAG' ? 'bg-indigo-500/30 text-indigo-100 border border-indigo-500/30' :
+                t === 'AI Developer' ? 'bg-cyan-500/30 text-cyan-100 border border-cyan-500/30' :
+                'bg-gray-500/30 text-gray-100 border border-gray-500/30'
               }`}>
-              {project.type === 'data analysis' ? 'Data Analysis' :
-                project.type === 'Data science' ? 'Data Science' :
-                  project.type === 'software Engineer' ? 'software Engineer' :
-                    project.type === 'powerbi' ? 'Power BI' :
-                    project.type === 'GEN AI' ? 'GEN AI' :
-                      'Other'}
-            </span>
+                {t === 'data analysis' ? 'Data Analysis' :
+                 t === 'Data science' ? 'Data Science' :
+                 t === 'software Engineer' ? 'software Engineer' :
+                 t === 'powerbi' ? 'Power BI' :
+                 t === 'Generative Ai' ? 'GEN AI' :
+                 t === 'RAG' ? 'RAG' :
+                 t === 'AI Developer' ? 'AI Dev' :
+                 'Other'}
+              </span>
+            ))}
           </div>
 
           {/* Gallery Badge */}
