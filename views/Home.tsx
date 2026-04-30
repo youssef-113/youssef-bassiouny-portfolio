@@ -5,7 +5,9 @@ import { HERO_CONTENT, PROJECTS, CERTIFICATES } from '../constants';
 import ProjectCard from '../components/ProjectCard';
 
 const Home: React.FC = () => {
-  const featuredProjects = PROJECTS.filter(p => p.featured).slice(0, 2);
+  const docmindProject = PROJECTS.find(p => p.id === 'p20');
+  const otherFeatured = PROJECTS.filter(p => p.featured && p.id !== 'p20').slice(0, 1);
+  const featuredProjects = docmindProject ? [docmindProject, ...otherFeatured] : otherFeatured;
   const featuredCertifications = CERTIFICATES.slice(0, 3);
 
   // Typing animation state

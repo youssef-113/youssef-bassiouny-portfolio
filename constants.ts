@@ -415,7 +415,7 @@ export const PROJECTS: Project[] = [
     github_url: "https://github.com/youssef-113",
     type: "Data science",
     year: "2025",
-    featured: true
+    featured: false
   },
   {
     id: "p3",
