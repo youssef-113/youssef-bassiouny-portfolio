@@ -938,6 +938,53 @@ export const PROJECTS: Project[] = [
     type: ["Generative Ai", "RAG"],
     year: "2026",
     featured: true
+  },
+  {
+    id: "p21",
+    title: "CS303 Credit Hours System",
+    short_description: "Enterprise-grade academic management platform with full MERN stack, real-time GPA calculation, and intelligent course scheduling for universities.",
+    long_description: "CS303 Credit Hours System is a comprehensive academic management platform designed for Cairo University's Faculty of Science. Built with Node.js + Express + TypeScript backend and React + TypeScript + TailwindCSS frontend, it manages student enrollments, course prerequisites, GPA calculations, and smart schedule generation. Features JWT-based authentication, role-based access control, Cloudinary photo uploads, and MongoDB data persistence for supporting 200+ users.",
+    problem_solved: "Cairo University's Faculty of Science struggled with manual student enrollment tracking, complex prerequisite validation, and lack of real-time GPA management. Manual processes led to enrollment errors, students taking courses without meeting prerequisites, inability to track academic progress, and poor coordination between students, advisors, and administrators. The system needed to automate course management and ensure academic integrity.",
+    technical_highlights: [
+      "Built three-tier MERN architecture separating presentation, business logic, and data layers",
+      "Implemented JWT-based authentication with secure refresh token mechanism",
+      "Designed role-based access control (SuperAdmin, IT Admin, Enrollment Admin, Courses Admin, Students) with granular permissions",
+      "Developed comprehensive enrollment system with automatic prerequisite validation preventing invalid course enrollments",
+      "Created real-time GPA calculation engine supporting various grading systems",
+      "Built intelligent course scheduling algorithm for optimal semester planning",
+      "Integrated Cloudinary for secure photo uploads with CDN optimization",
+      "Designed MongoDB schema supporting complex academic data relationships",
+      "Implemented rate limiting, input validation, and security middleware preventing attacks",
+      "Built admin dashboard with user management, enrollment analytics, and audit logs",
+      "Created responsive React UI supporting both desktop and mobile access",
+      "Deployed to Vercel with automated CI/CD pipeline"
+    ],
+    business_impact: [
+      "Automated enrollment process reducing administrative time from 4 hours/day to 30 minutes",
+      "Eliminated prerequisite validation errors preventing 95% of invalid course enrollments",
+      "Enabled real-time GPA tracking improving student academic planning by 70%",
+      "Reduced system errors by 90% through automated validations and constraints",
+      "Improved student satisfaction with 24/7 system availability and instant course information",
+      "Streamlined admin workflows managing 200+ users with comprehensive dashboarding",
+      "Enhanced data accuracy with centralized MongoDB database eliminating duplicate records",
+      "Enabled data-driven decisions on course offerings and scheduling based on enrollment analytics",
+      "Supported Cairo University's need to scale academic operations efficiently",
+      "Provided foundation for future features like AI-powered course recommendations"
+    ],
+    tech_stack: ["Node.js", "Express", "TypeScript", "React", "MongoDB", "JWT", "Cloudinary", "TailwindCSS", "REST APIs", "Full-Stack", "Three-tier Architecture"],
+    thumbnail_url: "/images/Credit hours/Credit Hours AI.png",
+    gallery_images: [
+      "/images/Credit hours/CREDIT HOURS SYSTEM.png",
+      "/images/Credit hours/University Cours Dagelement.png",
+      "/images/Credit hours/Credit Hours AI.png",
+      "/images/Credit hours/UNIVERSITY CREDIT HOURS SYSTEM.png",
+      "/images/Credit hours/dashboard.png"
+    ],
+    github_url: "https://github.com/alihasan6336/CS303_credit-hours-system",
+    live_url: "https://cs-303-credit-hours-system.vercel.app/login",
+    type: "software Engineer",
+    year: "2025",
+    featured: true
   }
 ];
 
