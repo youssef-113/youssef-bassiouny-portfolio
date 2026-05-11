@@ -974,11 +974,12 @@ export const PROJECTS: Project[] = [
     tech_stack: ["Node.js", "Express", "TypeScript", "React", "MongoDB", "JWT", "Cloudinary", "TailwindCSS", "REST APIs", "Full-Stack", "Three-tier Architecture"],
     thumbnail_url: "/Images/Credit hours/Credit Hours AI.png",
     gallery_images: [
-      "/Images/Credit hours/CREDIT HOURS SYSTEM.png",
-      "/Images/Credit hours/University Cours Dagelement.png",
-      "/Images/Credit hours/Credit Hours AI.png",
-      "/Images/Credit hours/UNIVERSITY CREDIT HOURS SYSTEM.png",
-      "/Images/Credit hours/dashboard.png"
+      "public\images\Credit hours\a-clean-modern-infographic-design-illust_qh1k_LGZQNy24cNNtPcR6g_NPyL32XpRMGqd1jbOs5zZQ.jpeg",
+      "public\images\Credit hours\a-clean-modern-infographic-poster-displa_Tg23yyDVSFOrU4EovCmzNA_NPyL32XpRMGqd1jbOs5zZQ.jpeg",
+      "public\images\Credit hours\a-comprehensive-digital-interface-design_fUtgQ3t2TCitR9v1OKYGhg_tZYLeuknSN6k26nojIn9vQ.jpeg",
+      "public\images\Credit hours\a-modern-digital-interface-displaying-a-_ggeuNr1-S56QPEJTMe7Y6A_F9fkoFx-TFCV7_vj3iamyA.jpeg",
+      "public\images\Credit hours\a-modern-professional-logo-design-featur_5yBoCv_rT3ecxMfOX7TpAQ_3Jae_uGWTG2JboUb6so5Mg_cover.jpeg",
+       "public\images\Credit hours\a-modern-professional-logo-design-featur_ykakayfTT6-VBBVGlBwp9w_3Jae_uGWTG2JboUb6so5Mg.jpeg"
     ],
     github_url: "https://github.com/alihasan6336/CS303_credit-hours-system",
     live_url: "https://cs-303-credit-hours-system.vercel.app/login",
