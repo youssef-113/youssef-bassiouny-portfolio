@@ -171,7 +171,15 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project, index }) => {
             )}
             {project.presentation_url && project.presentation_url !== '#' && (
               <a
-                href={project.presentation_url}
+                href={
+                  project.presentation_url.endsWith('.pptx')
+                    ? `https://docs.google.com/viewer?url=${encodeURIComponent(
+                        typeof window !== 'undefined'
+                          ? `${window.location.origin}${project.presentation_url}`
+                          : project.presentation_url
+                      )}&embedded=true`
+                    : project.presentation_url
+                }
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-1 text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-red-500 dark:hover:text-red-400 transition-colors transform hover:scale-105"

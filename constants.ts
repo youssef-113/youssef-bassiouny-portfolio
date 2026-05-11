@@ -972,18 +972,18 @@ export const PROJECTS: Project[] = [
       "Provided foundation for future features like AI-powered course recommendations"
     ],
     tech_stack: ["Node.js", "Express", "TypeScript", "React", "MongoDB", "JWT", "Cloudinary", "TailwindCSS", "REST APIs", "Full-Stack", "Three-tier Architecture"],
-    thumbnail_url: "/Images/Credit hours/Credit Hours AI.png",
+    thumbnail_url: "/images/Credit hours/a-modern-professional-logo-design-featur_5yBoCv_rT3ecxMfOX7TpAQ_3Jae_uGWTG2JboUb6so5Mg_cover.jpeg",
     gallery_images: [
-      "public/images/Credit hours/a-clean-modern-infographic-design-illust_qh1k_LGZQNy24cNNtPcR6g_NPyL32XpRMGqd1jbOs5zZQ.jpeg",
-      "public/images/Credit hours/a-clean-modern-infographic-poster-displa_Tg23yyDVSFOrU4EovCmzNA_NPyL32XpRMGqd1jbOs5zZQ.jpeg",
-      "public/images/Credit hours/a-comprehensive-digital-interface-design_fUtgQ3t2TCitR9v1OKYGhg_tZYLeuknSN6k26nojIn9vQ.jpeg",
-      "public/images/Credit hours/a-modern-digital-interface-displaying-a-_ggeuNr1-S56QPEJTMe7Y6A_F9fkoFx-TFCV7_vj3iamyA.jpeg",
-      "public/images/Credit hours/a-modern-professional-logo-design-featur_5yBoCv_rT3ecxMfOX7TpAQ_3Jae_uGWTG2JboUb6so5Mg_cover.jpeg",
-       "public/images/Credit hours/a-modern-professional-logo-design-featur_ykakayfTT6-VBBVGlBwp9w_3Jae_uGWTG2JboUb6so5Mg.jpeg"
+      "/images/Credit hours/a-clean-modern-infographic-design-illust_qh1k_LGZQNy24cNNtPcR6g_NPyL32XpRMGqd1jbOs5zZQ.jpeg",
+      "/images/Credit hours/a-clean-modern-infographic-poster-displa_Tg23yyDVSFOrU4EovCmzNA_NPyL32XpRMGqd1jbOs5zZQ.jpeg",
+      "/images/Credit hours/a-comprehensive-digital-interface-design_fUtgQ3t2TCitR9v1OKYGhg_tZYLeuknSN6k26nojIn9vQ.jpeg",
+      "/images/Credit hours/a-modern-digital-interface-displaying-a-_ggeuNr1-S56QPEJTMe7Y6A_F9fkoFx-TFCV7_vj3iamyA.jpeg",
+      "/images/Credit hours/a-modern-professional-logo-design-featur_5yBoCv_rT3ecxMfOX7TpAQ_3Jae_uGWTG2JboUb6so5Mg_cover.jpeg",
+      "/images/Credit hours/a-modern-professional-logo-design-featur_ykakayfTT6-VBBVGlBwp9w_3Jae_uGWTG2JboUb6so5Mg.jpeg"
     ],
     github_url: "https://github.com/alihasan6336/CS303_credit-hours-system",
     live_url: "https://cs-303-credit-hours-system.vercel.app/login",
-    presentation_url: "Images/credit hours/creditHoursAI_Pitch_Deck.pptx",
+    presentation_url: "/images/Credit hours/CreditHoursAI_Pitch_Deck.pptx",
     type: "software Engineer",
     year: "2026",
     featured: true
