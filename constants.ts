@@ -244,14 +244,14 @@ export const INTERNSHIPS = [
       "Designed and deployed AI solutions using Docker containerization",
       "Learned AI solution design patterns for real-world business applications"
     ],
-    skills: ["DL","ML","RAG", "LLM", "LangChain", "Multi-RAG", "Docker", "AI Solution Design", "Prompt Engineering", "Generative Ai"]
+    skills: ["DL", "ML", "RAG", "LLM", "LangChain", "Multi-RAG", "Docker", "AI Solution Design", "Prompt Engineering", "Generative Ai"]
   },
   {
     id: "i7",
     role: "Product Manager Trainee",
     company: "INJAZ Egypt",
     location: "Cairo, Egypt",
-    period: "Jan 2026 – Mar 2026",
+    period: "Jan 2026 – Apr 2026",
     description: [
       "Contributed to building startup concepts from ideation to execution, aligning product vision with real market neeData science and business objectives",
       "Applied product management lifecycle practices (discovery, validation, MVP design, and iteration) to simulate real-world startup environments",
@@ -276,7 +276,7 @@ export const SKILLS: SkillCategory[] = [
       { name: "Collab", level: 85 },
       { name: "NLP (Hugging Face)", level: 80 },
       { name: "Deep Learning", level: 80 },
-      {name: "CV", level: 65},
+      { name: "CV", level: 65 },
     ]
   },
   {
@@ -290,7 +290,7 @@ export const SKILLS: SkillCategory[] = [
     ]
   },
   {
-    name:"Generative Ai",
+    name: "Generative Ai",
     skills: [
       { name: "RAG", level: 85 },
       { name: "LLM", level: 85 },
@@ -314,7 +314,7 @@ export const SKILLS: SkillCategory[] = [
       { name: "jQuery", level: 80 },
       { name: "Tailwind CSS", level: 90 },
       { name: "MySQL / MongoDB", level: 80 },
-      {name : "JAVA", level:65},
+      { name: "JAVA", level: 65 },
     ]
   },
   {
@@ -331,7 +331,7 @@ export const SKILLS: SkillCategory[] = [
       { name: "API Development", level: 80 },
       { name: "Version Control", level: 90 },
       { name: "CI/CD", level: 75 },
-      {name:"shopify", level:60},
+      { name: "shopify", level: 60 },
     ]
   }
 ];
@@ -870,7 +870,7 @@ export const PROJECTS: Project[] = [
       "Provided 24/7 availability with battery-free NFC wristband technology",
       "Empowered users with granular privacy controls over their medical data"
     ],
-    tech_stack: ["Node.js", "Express", "Notion","Replit", "DataBase management", "Security management", "Firebase", "Redis", "REST API", "AI/OCR", "NLP", "JWT", "React","Full-Stack"],
+    tech_stack: ["Node.js", "Express", "Notion", "Replit", "DataBase management", "Security management", "Firebase", "Redis", "REST API", "AI/OCR", "NLP", "JWT", "React", "Full-Stack"],
     thumbnail_url: "/images/Life Code/Project \u201Clife band\u201D full.png",
     gallery_images: [
       "/images/Life Code/backend projects.png",
@@ -881,7 +881,7 @@ export const PROJECTS: Project[] = [
     ],
     github_url: "https://github.com/youssef-113/Life-code",
     live_url: "https://life-code--yossfabdla311.replit.app",
-    presentation_url:"/Images/Life Code/LifeCode 3.0 Cataloge.pdf",
+    presentation_url: "/Images/Life Code/LifeCode 3.0 Cataloge.pdf",
     type: "software Engineer",
     year: "2026",
     featured: true
@@ -978,8 +978,7 @@ export const PROJECTS: Project[] = [
       "/images/Credit hours/a-clean-modern-infographic-poster-displa_Tg23yyDVSFOrU4EovCmzNA_NPyL32XpRMGqd1jbOs5zZQ.jpeg",
       "/images/Credit hours/a-comprehensive-digital-interface-design_fUtgQ3t2TCitR9v1OKYGhg_tZYLeuknSN6k26nojIn9vQ.jpeg",
       "/images/Credit hours/a-modern-digital-interface-displaying-a-_ggeuNr1-S56QPEJTMe7Y6A_F9fkoFx-TFCV7_vj3iamyA.jpeg",
-      "/images/Credit hours/a-modern-professional-logo-design-featur_5yBoCv_rT3ecxMfOX7TpAQ_3Jae_uGWTG2JboUb6so5Mg_cover.jpeg",
-      "/images/Credit hours/a-modern-professional-logo-design-featur_ykakayfTT6-VBBVGlBwp9w_3Jae_uGWTG2JboUb6so5Mg.jpeg"
+      "/images/Credit hours/a-modern-professional-logo-design-featur_5yBoCv_rT3ecxMfOX7TpAQ_3Jae_uGWTG2JboUb6so5Mg_cover.jpeg"
     ],
     github_url: "https://github.com/alihasan6336/CS303_credit-hours-system",
     live_url: "https://cs-303-credit-hours-system.vercel.app/login",
@@ -987,7 +986,61 @@ export const PROJECTS: Project[] = [
     type: "software Engineer",
     year: "2026",
     featured: true
-  }
+  },
+  {
+    id: "p22",
+    title: "Marketing Campaign Time Series Forecasting",
+    short_description: "End-to-end data science pipeline for marketing campaign analysis with Prophet forecasting and interactive Streamlit dashboard.",
+    long_description: "Comprehensive marketing campaign analytics project featuring data cleaning, exploratory analysis, business intelligence, and time-series forecasting. Built with Prophet for accurate lead and revenue predictions, with an interactive Streamlit dashboard for real-time insights and KPI tracking across operations, quality assurance, and sales performance.",
+    problem_solved: "Marketing and sales teams lacked visibility into campaign performance, quality assurance processes, and sales conversion rates. Manual reporting made it impossible to track future lead generation trends, identify top-performing team members, or understand which states generated the most revenue. The project needed to transform raw campaign data into actionable business insights and forecast future performance.",
+    technical_highlights: [
+      "Performed comprehensive data cleaning handling missing values, outliers, and inconsistencies in campaign data",
+      "Conducted exploratory data analysis (EDA) to identify sales patterns, funnel effectiveness, and performance trends",
+      "Built Prophet time series models for accurate lead and revenue forecasting with seasonality adjustments",
+      "Engineered features including lag variables, moving averages, and campaign-specific indicators",
+      "Created interactive Streamlit dashboard with three tabs: Overview & KPIs, Deep-Dive Analysis, and Time-Series Forecast",
+      "Implemented KPI tracking for sales funnel effectiveness, team performance, and state-level revenue analysis",
+      "Developed business intelligence insights identifying closer concentration risk and QA coverage gaps",
+      "Achieved accurate forecast predictions enabling proactive campaign optimization",
+      "Integrated data visualization libraries for compelling data storytelling and executive reporting"
+    ],
+    business_impact: [
+      "Enabled data-driven campaign decisions with real-time visibility into performance metrics",
+      "Improved sales funnel analysis identifying bottlenecks and optimization opportunities",
+      "Enhanced team performance tracking identifying top-performing leaders and closers",
+      "Provided accurate lead and revenue forecasts for better resource allocation and planning",
+      "Identified high-revenue states for targeted marketing investment",
+      "Reduced reporting time from manual hours to instant dashboard access",
+      "Enabled proactive quality assurance improvements through coverage analysis",
+      "Supported strategic decision-making with comprehensive business intelligence insights"
+    ],
+    tech_stack: ["Python", "Prophet", "Streamlit", "Pandas", "NumPy", "Matplotlib", "Plotly", "Time Series", "Forecasting", "Data Analysis"],
+    thumbnail_url: "/Images/end to end forecasting market compaign/banner.png",
+    gallery_images: [
+      "/images/end to end forecasting market compaign/banner.png",
+      "/images/end to end forecasting market compaign/LEADmodel_validation_comparison.png",
+      "/images/end to end forecasting market compaign/Work Duration_distribution.png",
+      "/images/end to end forecasting market compaign/closer_conversion_rates.png",
+      "/images/end to end forecasting market compaign/kpi_lead_conversion_rates.png",
+      "/images/end to end forecasting market compaign/kpi_top_selling_products.png",
+      "/images/end to end forecasting market compaign/payment_rate_by_team_leader.png",
+      "/images/end to end forecasting market compaign/payment_received_distribution.png",
+      "/images/end to end forecasting market compaign/plot_01_lead_disposition.png",
+      "/images/end to end forecasting market compaign/plot_02_agent_performance.png",
+      "/images/end to end forecasting market compaign/plot_03_product_pricing.png",
+      "/images/end to end forecasting market compaign/plot_04_quality_scores.png",
+      "/images/end to end forecasting market compaign/plot_05_payment_team.png",
+      "/images/end to end forecasting market compaign/plot_06_demographics.png",
+      "/images/end to end forecasting market compaign/plot_07_time_series.png",
+      "/images/end to end forecasting market compaign/plot_08_forecast.png"
+    ],
+    github_url: "https://github.com/youssef-113/end-to-end-TimeSeries-forecasting",
+    live_url: "https://end-to-end-timeseries-forecasting-mfrk3kfsg3hd7pvi5hbkw9.streamlit.app/",
+    type: "Data science",
+    year: "2026",
+    featured: true
+  },
+
 ];
 
 export const CERTIFICATES: Certificate[] = [
