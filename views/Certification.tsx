@@ -1,20 +1,7 @@
 import React, { useState } from 'react';
-import ChromaGrid from '../components/ChromaGrid';
 import { CERTIFICATES } from '../constants';
-import { X, Calendar, Building2, Award as AwardIcon } from 'lucide-react';
+import { X, Calendar, Building2, Award as AwardIcon, ExternalLink, CheckCircle } from 'lucide-react';
 import { Certificate } from '../types';
-
-// Color palette for certificates
-const certificationColors = [
-  { borderColor: '#3B82F6', gradient: 'linear-gradient(145deg, #3B82F6, #1E40AF, #000)' }, // Blue
-  { borderColor: '#10B981', gradient: 'linear-gradient(145deg, #10B981, #047857, #000)' }, // Green
-  { borderColor: '#8B5CF6', gradient: 'linear-gradient(145deg, #8B5CF6, #6D28D9, #000)' }, // Purple
-  { borderColor: '#F59E0B', gradient: 'linear-gradient(145deg, #F59E0B, #D97706, #000)' }, // Amber
-  { borderColor: '#EF4444', gradient: 'linear-gradient(145deg, #EF4444, #DC2626, #000)' }, // Red
-  { borderColor: '#06B6D4', gradient: 'linear-gradient(145deg, #06B6D4, #0891B2, #000)' }, // Cyan
-  { borderColor: '#EC4899', gradient: 'linear-gradient(145deg, #EC4899, #DB2777, #000)' }, // Pink
-  { borderColor: '#6366F1', gradient: 'linear-gradient(145deg, #6366F1, #4F46E5, #000)' }, // Indigo
-];
 
 const Resources: React.FC = () => {
   const [selectedCert, setSelectedCert] = useState<Certificate | null>(null);
@@ -27,42 +14,99 @@ const Resources: React.FC = () => {
     setSelectedCert(null);
   };
 
-  // Transform certificates data for ChromaGrid
-  const chromaItems = CERTIFICATES.map((cert, index) => {
-    const colors = certificationColors[index % certificationColors.length];
-    return {
-      image: cert.image || '/images/default-cert.jpg',
-      title: cert.name,
-      subtitle: cert.issuer,
-      handle: cert.date,
-      borderColor: colors.borderColor,
-      gradient: colors.gradient,
-      onClick: () => openModal(cert)
-    };
-  });
-
   return (
     <div className="animate-fade-in py-12">
       <div className="max-w-7xl mx-auto px-4">
         {/* Header */}
-        <div className="text-center mb-12">
-          <h1 className="text-4xl md:text-5xl font-display font-bold mb-4 text-transparent bg-clip-text bg-gradient-to-r from-secondary to-primary">
+        <div className="text-center mb-16">
+          <div className="inline-flex items-center gap-2 px-4 py-2 bg-primary/10 rounded-full mb-6">
+            <AwardIcon size={18} className="text-primary" />
+            <span className="text-sm font-semibold text-primary">Professional Credentials</span>
+          </div>
+          <h1 className="text-4xl md:text-5xl font-display font-bold mb-4 text-gray-900 dark:text-white">
             Certifications & Achievements
           </h1>
           <p className="text-gray-600 dark:text-gray-400 max-w-2xl mx-auto text-lg">
-            Professional certifications and training programs demonstrating continuous learning and expertise.
+            A comprehensive collection of professional certifications, training programs, and industry recognitions demonstrating continuous learning and expertise.
           </p>
         </div>
 
-        {/* ChromaGrid Component */}
-        <div style={{ minHeight: '800px', position: 'relative' }}>
-          <ChromaGrid
-            items={chromaItems}
-            radius={350}
-            damping={0.5}
-            fadeOut={0.4}
-            ease="power3.out"
-          />
+        {/* Professional Certificate Grid */}
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          {CERTIFICATES.map((cert, index) => (
+            <div
+              key={cert.id}
+              onClick={() => openModal(cert)}
+              className="group relative bg-white dark:bg-dark-card rounded-xl border border-gray-200 dark:border-gray-800 overflow-hidden hover:shadow-2xl hover:shadow-primary/10 transition-all duration-300 cursor-pointer"
+            >
+              {/* Certificate Image */}
+              <div className="relative h-48 overflow-hidden bg-gradient-to-br from-gray-50 to-gray-100 dark:from-gray-800 dark:to-gray-900">
+                {cert.image ? (
+                  <img
+                    src={cert.image}
+                    alt={cert.name}
+                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                  />
+                ) : (
+                  <div className="w-full h-full flex items-center justify-center">
+                    <AwardIcon size={64} className="text-gray-300 dark:text-gray-600" />
+                  </div>
+                )}
+                <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                <div className="absolute bottom-4 left-4 right-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                  <div className="flex items-center gap-2 text-white text-sm font-medium">
+                    <ExternalLink size={16} />
+                    View Details
+                  </div>
+                </div>
+              </div>
+
+              {/* Certificate Content */}
+              <div className="p-5">
+                <div className="flex items-start justify-between mb-3">
+                  <div className="flex-1">
+                    <h3 className="font-bold text-gray-900 dark:text-white text-lg mb-1 line-clamp-2 group-hover:text-primary transition-colors">
+                      {cert.name}
+                    </h3>
+                    <div className="flex items-center gap-2 text-sm text-gray-600 dark:text-gray-400">
+                      <Building2 size={14} />
+                      <span className="line-clamp-1">{cert.issuer}</span>
+                    </div>
+                  </div>
+                  <div className="flex items-center gap-1 px-2 py-1 bg-green-50 dark:bg-green-900/20 rounded-full">
+                    <CheckCircle size={12} className="text-green-600 dark:text-green-400" />
+                    <span className="text-xs font-medium text-green-600 dark:text-green-400">Verified</span>
+                  </div>
+                </div>
+
+                <div className="flex items-center gap-2 text-sm text-gray-500 dark:text-gray-500">
+                  <Calendar size={14} />
+                  <span>{cert.date}</span>
+                </div>
+
+                {/* Skills Preview */}
+                {cert.skills && cert.skills.length > 0 && (
+                  <div className="mt-4 pt-4 border-t border-gray-100 dark:border-gray-800">
+                    <div className="flex flex-wrap gap-1.5">
+                      {cert.skills.slice(0, 3).map((skill, idx) => (
+                        <span
+                          key={idx}
+                          className="px-2 py-1 bg-gray-100 dark:bg-gray-800 rounded-md text-xs font-medium text-gray-600 dark:text-gray-400"
+                        >
+                          {skill}
+                        </span>
+                      ))}
+                      {cert.skills.length > 3 && (
+                        <span className="px-2 py-1 bg-primary/10 rounded-md text-xs font-medium text-primary">
+                          +{cert.skills.length - 3} more
+                        </span>
+                      )}
+                    </div>
+                  </div>
+                )}
+              </div>
+            </div>
+          ))}
         </div>
 
         {/* Modal - Keep the same detailed modal */}
@@ -118,9 +162,21 @@ const Resources: React.FC = () => {
                   <div className="grid md:grid-cols-2 gap-4">
                     <div className="flex items-start gap-3 p-4 bg-gray-50 dark:bg-gray-800/50 rounded-lg">
                       <Building2 className="text-primary mt-1" size={20} />
-                      <div>
+                      <div className="flex-1">
                         <p className="text-sm text-gray-500 dark:text-gray-400 mb-1">Issuing Organization</p>
-                        <p className="font-semibold text-gray-900 dark:text-white">{selectedCert.issuer}</p>
+                        {selectedCert.company_link ? (
+                          <a
+                            href={selectedCert.company_link}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="font-semibold text-gray-900 dark:text-white hover:text-primary dark:hover:text-primary transition-colors flex items-center gap-2"
+                          >
+                            {selectedCert.issuer}
+                            <ExternalLink size={14} />
+                          </a>
+                        ) : (
+                          <p className="font-semibold text-gray-900 dark:text-white">{selectedCert.issuer}</p>
+                        )}
                       </div>
                     </div>
 

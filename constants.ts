@@ -1051,7 +1051,8 @@ export const CERTIFICATES: Certificate[] = [
     date: "October 2024 - May 2025",
     description: "Completed intensive 6-month data science and machine learning internship covering Python, ML algorithms, deep learning, data visualization, and real-world project implementation",
     image: "/images/certifications/depi-internship.jpg",
-    skills: ["Python", "Pandas", "NumPy", "Scikit-learn", "TensorFlow", "Keras", "Deep Learning", "Data Visualization", "Power BI", "SQL", "Machine Learning Algorithms"]
+    skills: ["Python", "Pandas", "NumPy", "Scikit-learn", "TensorFlow", "Keras", "Deep Learning", "Data Visualization", "Power BI", "SQL", "Machine Learning Algorithms"],
+    company_link: "https://www.linkedin.com/company/eyouth/"
   },
   {
     id: "c2",
@@ -1060,7 +1061,8 @@ export const CERTIFICATES: Certificate[] = [
     date: "January 9, 2025",
     description: "Successfully completed 2-month internship as Full-Stack Developer, demonstrating technical skills and strong commitment to learning",
     image: "/images/certifications/cloudjet.jpg",
-    skills: ["PHP", "MySQL", "JavaScript", "HTML5", "CSS3", "jQuery", "AJAX", "REST APIs", "FileZilla", "XAMPP", "Web Security"]
+    skills: ["PHP", "MySQL", "JavaScript", "HTML5", "CSS3", "jQuery", "AJAX", "REST APIs", "FileZilla", "XAMPP", "Web Security"],
+    company_link: "https://www.linkedin.com/company/cloudjet-innovations/posts/?feedView=all"
   },
   {
     id: "c3",
@@ -1069,7 +1071,8 @@ export const CERTIFICATES: Certificate[] = [
     date: "2025",
     description: "Successfully completed comprehensive data analysis course using Excel with professional instructors",
     image: "/images/certifications/excel.png",
-    skills: ["Microsoft Excel", "Data Cleaning", "Pivot Tables", "VLOOKUP", "Data Visualization", "Charts & Graphs", "Statistical Analysis", "Conditional Formatting"]
+    skills: ["Microsoft Excel", "Data Cleaning", "Pivot Tables", "VLOOKUP", "Data Visualization", "Charts & Graphs", "Statistical Analysis", "Conditional Formatting"],
+    company_link: "https://www.linkedin.com/company/eyouth/"
   },
   {
     id: "c4",
@@ -1078,7 +1081,8 @@ export const CERTIFICATES: Certificate[] = [
     date: "October 18-19, 2025",
     description: "Attended Cairo University's Premier AI Conference - Bridging Academia and Industry",
     image: "/images/certifications/cu-ai.jpg",
-    skills: ["Artificial Intelligence", "Machine Learning", "AI Ethics", "Industry Applications", "Research Methodologies", "Neural Networks"]
+    skills: ["Artificial Intelligence", "Machine Learning", "AI Ethics", "Industry Applications", "Research Methodologies", "Neural Networks"],
+    company_link: "https://www.linkedin.com/school/cairo-university/"
   },
   {
     id: "c5",
@@ -1087,7 +1091,8 @@ export const CERTIFICATES: Certificate[] = [
     date: "2025",
     description: "Intensive bootcamp covering AI-powered data analysis techniques and tools",
     image: "/images/certifications/bootcamp.png",
-    skills: ["Python", "AI Tools", "Data Analysis", "Machine Learning", "Data Processing", "Analytics Frameworks"]
+    skills: ["Python", "AI Tools", "Data Analysis", "Machine Learning", "Data Processing", "Analytics Frameworks"],
+    company_link: "https://www.linkedin.com/company/eyouth/"
   },
   {
     id: "c6",
@@ -1096,7 +1101,8 @@ export const CERTIFICATES: Certificate[] = [
     date: "2025",
     description: "Completed machine learning internship focusing on practical ML applications and model development",
     image: "/images/certifications/optifyx.png",
-    skills: ["Machine Learning", "Python", "Model Development", "ML Deployment", "Data Preprocessing", "Model Evaluation"]
+    skills: ["Machine Learning", "Python", "Model Development", "ML Deployment", "Data Preprocessing", "Model Evaluation"],
+    company_link: "https://in.linkedin.com/company/optifyxtechnology"
   },
   {
     id: "c7",
@@ -1105,7 +1111,8 @@ export const CERTIFICATES: Certificate[] = [
     date: "2025",
     description: "HanData science-on internship experience in data science projects and analytics",
     image: "/images/certifications/codealpha.png",
-    skills: ["Data Science", "Python", "Analytics", "Data Wrangling", "Statistical Analysis", "Project Management"]
+    skills: ["Data Science", "Python", "Analytics", "Data Wrangling", "Statistical Analysis", "Project Management"],
+    company_link: "https://in.linkedin.com/company/codealpha"
   },
   {
     id: "c8",
@@ -1114,7 +1121,8 @@ export const CERTIFICATES: Certificate[] = [
     date: "2025",
     description: "Internship focused on data analytics and business intelligence solutions",
     image: "/images/certifications/brainwave.png",
-    skills: ["Data Analytics", "Business Intelligence", "SQL", "Dashboard Creation", "Reporting", "Data Modeling"]
+    skills: ["Data Analytics", "Business Intelligence", "SQL", "Dashboard Creation", "Reporting", "Data Modeling"],
+    company_link: "https://in.linkedin.com/company/brainwave-matrix-solutions"
   },
   {
     id: "c9",
@@ -1123,7 +1131,8 @@ export const CERTIFICATES: Certificate[] = [
     date: "2025",
     description: "Advanced course on decision trees, random forests, and gradient boosting algorithms",
     image: "/images/certifications/datacamp-ml.png",
-    skills: ["Decision Trees", "Random Forests", "Gradient Boosting", "XGBoost", "Scikit-learn", "Model Tuning"]
+    skills: ["Decision Trees", "Random Forests", "Gradient Boosting", "XGBoost", "Scikit-learn", "Model Tuning"],
+    company_link: "https://www.linkedin.com/company/datacampinc"
   },
   {
     id: "c10",
@@ -1132,7 +1141,8 @@ export const CERTIFICATES: Certificate[] = [
     date: "2025",
     description: "Comprehensive Python programming course covering intermediate concepts and best practices",
     image: "/images/certifications/datacamp-python.png",
-    skills: ["Python", "OOP", "List Comprehensions", "Functions", "Data Structures", "Error Handling"]
+    skills: ["Python", "OOP", "List Comprehensions", "Functions", "Data Structures", "Error Handling"],
+    company_link: "https://www.linkedin.com/company/datacampinc"
   },
   {
     id: "c11",
@@ -1141,7 +1151,8 @@ export const CERTIFICATES: Certificate[] = [
     date: "2025",
     description: "Foundational Python programming course for data science",
     image: "/images/certifications/datacamp-intro.png",
-    skills: ["Python Basics", "Variables", "Data Types", "Control Flow", "Functions", "NumPy Basics"]
+    skills: ["Python Basics", "Variables", "Data Types", "Control Flow", "Functions", "NumPy Basics"],
+    company_link: "https://www.linkedin.com/company/datacampinc"
   },
   {
     id: "c12",
@@ -1150,7 +1161,8 @@ export const CERTIFICATES: Certificate[] = [
     date: "2025",
     description: "Specialized course on data preprocessing and cleaning techniques",
     image: "/images/certifications/datacamp-cleaning.png",
-    skills: ["Data Cleaning", "Pandas", "Missing Values", "Data Validation", "String Manipulation", "Duplicate Handling"]
+    skills: ["Data Cleaning", "Pandas", "Missing Values", "Data Validation", "String Manipulation", "Duplicate Handling"],
+    company_link: "https://www.linkedin.com/company/datacampinc"
   },
   {
     id: "c13",
@@ -1159,7 +1171,8 @@ export const CERTIFICATES: Certificate[] = [
     date: "2025",
     description: "In-depth course on supervised machine learning algorithms using scikit-learn",
     image: "/images/certifications/datacamp-supervised.png",
-    skills: ["Supervised Learning", "Scikit-learn", "Classification", "Regression", "Model Selection", "Cross-Validation"]
+    skills: ["Supervised Learning", "Scikit-learn", "Classification", "Regression", "Model Selection", "Cross-Validation"],
+    company_link: "https://www.linkedin.com/company/datacampinc"
   },
   {
     id: "c14",
@@ -1168,7 +1181,8 @@ export const CERTIFICATES: Certificate[] = [
     date: "2025",
     description: "Comprehensive overview of modern data science tools and programming languages",
     image: "/images/certifications/ibm.png",
-    skills: ["Python", "R", "SQL", "Jupyter Notebooks", "Data Science Tools", "Programming Languages"]
+    skills: ["Python", "R", "SQL", "Jupyter Notebooks", "Data Science Tools", "Programming Languages"],
+    company_link: "https://www.linkedin.com/company/ibm"
   },
   {
     id: "c15",
@@ -1177,7 +1191,8 @@ export const CERTIFICATES: Certificate[] = [
     date: "2025",
     description: "Practical workshop on data analysis techniques and methodologies",
     image: "/images/certifications/udemy-workshop.png",
-    skills: ["Data Analysis", "Excel", "Statistics", "Data Collection", "Analysis Techniques", "Reporting"]
+    skills: ["Data Analysis", "Excel", "Statistics", "Data Collection", "Analysis Techniques", "Reporting"],
+    company_link: "https://www.linkedin.com/company/udemy"
   },
   {
     id: "c16",
@@ -1186,7 +1201,8 @@ export const CERTIFICATES: Certificate[] = [
     date: "2022",
     description: "Comprehensive web development program covering full-stack technologies",
     image: "/images/certifications/udacity.jpg",
-    skills: ["HTML", "CSS", "JavaScript", "React", "Node.js", "Express", "MongoDB", "REST APIs", "Git"]
+    skills: ["HTML", "CSS", "JavaScript", "React", "Node.js", "Express", "MongoDB", "REST APIs", "Git"],
+    company_link: "https://www.linkedin.com/school/udacity/"
   },
   {
     id: "c17",
@@ -1195,6 +1211,7 @@ export const CERTIFICATES: Certificate[] = [
     date: "January 2026 - March 2026",
     description: "Completed intensive product management traineeship focusing on startup development, business strategy, market analysis, and team leadership. Gained hands-on experience in building startup concepts from ideation to execution, aligning product vision with market needs and business objectives.",
     image: "/images/certifications/INJAZ certific.png",
-    skills: ["Product Management", "Startup Development", "Business Strategy", "Market Analysis", "Leadership", "Team Collaboration", "Agile Methodologies", "Problem Solving", "MVP Design", "Go-to-Market Strategy"]
+    skills: ["Product Management", "Startup Development", "Business Strategy", "Market Analysis", "Leadership", "Team Collaboration", "Agile Methodologies", "Problem Solving", "MVP Design", "Go-to-Market Strategy"],
+    company_link: "https://www.linkedin.com/company/injaz-egypt/posts/?feedView=all"
   }
 ];

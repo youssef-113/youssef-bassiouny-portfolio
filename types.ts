@@ -43,6 +43,7 @@ export interface Certificate {
   image?: string;
   description?: string;
   skills?: string[];
+  company_link?: string;
 }
 
 export interface SkillCategory {
