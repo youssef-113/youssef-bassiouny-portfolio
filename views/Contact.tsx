@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import emailjs from '@emailjs/browser';
 import { Mail, Phone, MapPin, Send, Loader2, Github, Linkedin, MessageCircle, Briefcase, Database, Code, UserCheck } from 'lucide-react';
 import { SOCIAL_LINKS, SOCIAL_MEDIA_CARDS } from '../constants';
 
@@ -9,11 +10,26 @@ const Contact: React.FC = () => {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     setStatus('sending');
-    // Simulate network request
-    setTimeout(() => {
-      setStatus('success');
-      setFormData({ name: '', email: '', message: '' });
-    }, 1500);
+
+    const serviceId = import.meta.env.VITE_SERVICE_ID;
+    const templateId = import.meta.env.VITE_TEMPLATE_ID;
+    const publicKey = import.meta.env.VITE_PUBLIC_KEY;
+
+    emailjs.send(serviceId, templateId, {
+      from_name: formData.name,
+      from_email: formData.email,
+      message: formData.message,
+      to_email: SOCIAL_LINKS.email
+    }, publicKey)
+      .then((result) => {
+        console.log('Email sent successfully:', result.text);
+        setStatus('success');
+        setFormData({ name: '', email: '', message: '' });
+      })
+      .catch((error) => {
+        console.error('Email send error:', error);
+        setStatus('error');
+      });
   };
 
   // Icon component mapping
