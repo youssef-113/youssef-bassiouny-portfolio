@@ -1187,5 +1187,14 @@ export const CERTIFICATES: Certificate[] = [
     description: "Comprehensive web development program covering full-stack technologies",
     image: "/images/certifications/udacity.jpg",
     skills: ["HTML", "CSS", "JavaScript", "React", "Node.js", "Express", "MongoDB", "REST APIs", "Git"]
+  },
+  {
+    id: "c17",
+    name: "Product Management & Team Leadership Internship",
+    issuer: "INJAZ Egypt",
+    date: "January 2026 - March 2026",
+    description: "Completed intensive product management traineeship focusing on startup development, business strategy, market analysis, and team leadership. Gained hands-on experience in building startup concepts from ideation to execution, aligning product vision with market needs and business objectives.",
+    image: "/images/certifications/INJAZ certific.png",
+    skills: ["Product Management", "Startup Development", "Business Strategy", "Market Analysis", "Leadership", "Team Collaboration", "Agile Methodologies", "Problem Solving", "MVP Design", "Go-to-Market Strategy"]
   }
 ];
