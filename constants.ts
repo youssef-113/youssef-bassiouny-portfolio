@@ -1032,7 +1032,7 @@ export const PROJECTS: Project[] = [
       "Supported strategic decision-making with comprehensive business intelligence insights"
     ],
     tech_stack: ["Python", "Prophet", "Streamlit", "Pandas", "NumPy", "Matplotlib", "Plotly", "Time Series", "Forecasting", "Data Analysis"],
-    thumbnail_url: "/Images/end to end forecasting market compaign/banner.png",
+    thumbnail_url: "/images/end to end forecasting market compaign/banner.png",
     gallery_images: [
       "/images/end to end forecasting market compaign/banner.png",
       "/images/end to end forecasting market compaign/LEADmodel_validation_comparison.png",
