@@ -65,7 +65,7 @@ const Home: React.FC = () => {
               <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-500 opacity-75"></span>
               <span className="relative inline-flex rounded-full h-2 w-2 bg-green-500"></span>
             </span>
-            Working at Vmax (Full-time)
+            Working at Outsource Skills (Full-time)
           </div>
 
           <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-display font-bold mb-4 lg:mb-6 leading-tight bg-clip-text text-transparent bg-gradient-to-r from-gray-900 to-gray-600 dark:from-white dark:to-gray-400">
@@ -154,7 +154,7 @@ const Home: React.FC = () => {
                 <div className="w-3 h-3 rounded-full bg-green-500 animate-pulse"></div>
                 <div>
                   <p className="text-xs text-gray-500 dark:text-gray-400 font-medium">Current Status</p>
-                  <p className="text-sm font-bold text-gray-900 dark:text-white">Working Data science and AI</p>
+                  <p className="text-sm font-bold text-gray-900 dark:text-white">Working RTM & Operations Data Analyst</p>
                 </div>
               </div>
             </div>
@@ -165,7 +165,7 @@ const Home: React.FC = () => {
       {/* Tech Highlights */}
       <section className="py-20 border-t border-gray-200 dark:border-gray-800">
         <div className="flex flex-wrap justify-center gap-8 md:gap-16 opacity-70 grayscale hover:grayscale-0 transition-all duration-500">
-          {['Python',"Data Analysis", 'Data Science',"Generative Ai", 'php', 'javascript', 'Java', 'React', 'Node.js', 'Odoo', 'Power BI', 'AI Automation'].map(tech => (
+          {['Python', "Data Analysis", 'Data Science', "Generative Ai", 'php', 'javascript', 'Java', 'React', 'Node.js', 'Odoo', 'Power BI', 'AI Automation'].map(tech => (
             <div key={tech} className="text-xl font-bold font-display text-gray-400 hover:text-primary transition-colors cursor-default select-none">
               {tech}
             </div>

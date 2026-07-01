@@ -95,7 +95,7 @@ export const SOCIAL_MEDIA_CARDS = [
 
 export const HERO_CONTENT = {
   name: "Youssef Bassiouny",
-  role: "Data Scientist, ML Engineer & Full-Stack Developer",
+  role: "RTM & Operations Data Analyst | Data Scientist | ML Engineer",
   bio: "I build AI-powered and data-driven products, machine learning systems, and full-stack applications. I specialize in Python for ML/DL and Generative AI, data analytics with Power BI, and modern web technologies. I design reproducible ML pipelines, intelligent dashboarData science, and production-ready systems, including CRM, Odoo, and Shopify integrations to automate business workflows.",
   image: "/images/formal-photo.jpg"
 };
@@ -103,9 +103,23 @@ export const HERO_CONTENT = {
 export const EXPERIENCE: Experience[] = [
   {
     id: "1",
+    role: "RTM & Operations Data Analyst",
+    company: "Outsourcing Skill",
+    period: "June 2026 – Present",
+    type: "work",
+    description: [
+      "Monitor and optimize real-time outbound campaign performance using VICIdial, ensuring operational efficiency, SLA compliance, and workforce productivity.",
+      "Build automated dashboards and operational reports with Power BI, Excel, SQL, and Python to monitor sales, QA, revenue, approvals, and performance KPIs.",
+      "Analyze CRM and call center data to identify performance trends, improve campaign efficiency, and support strategic decision-making.",
+      "Develop KPI frameworks, forecasting models, and operational analytics for lead conversion, sales performance, payment tracking, and team productivity.",
+      "Collaborate with operations, quality assurance, and management teams to improve campaign performance through data-driven insights and process optimization."
+    ]
+  },
+  {
+    id: "2",
     role: "Data Scientist & ML Engineer",
     company: "Vmax (USA Company)",
-    period: "July 2025 – Present",
+    period: "July 2025 –  May 2026",
     type: "work",
     description: [
       "Deployed a full pipeline data science applied Python (pandas, scikit-learn).",
@@ -115,10 +129,10 @@ export const EXPERIENCE: Experience[] = [
     ]
   },
   {
-    id: "2",
+    id: "3",
     role: "AI Developer & Automation",
     company: "Hoven (Saudi Arabia - Remote)",
-    period: "Oct 2025 – Present",
+    period: "Oct 2025 – Feb 2026",
     type: "work",
     description: [
       "Integrated Salla and Shopify with Odoo for automated sales reporting.",
@@ -126,7 +140,7 @@ export const EXPERIENCE: Experience[] = [
     ]
   },
   {
-    id: "3",
+    id: "4",
     role: "Full Stack Developer (PHP-JS-MySQL)",
     company: "Cloudjet LLC",
     period: "June 2025 – Sep 2025",
@@ -138,7 +152,7 @@ export const EXPERIENCE: Experience[] = [
     ]
   },
   {
-    id: "4",
+    id: "5",
     role: "Data Scientist & ML Engineer",
     company: "Freelancer (Mostaql)",
     period: "Feb 2025 – Mar 2025",
@@ -286,7 +300,10 @@ export const SKILLS: SkillCategory[] = [
       { name: "Power BI", level: 90 },
       { name: "SQL", level: 85 },
       { name: "Streamlit", level: 90 },
-      { name: "Matplotlib / Seaborn", level: 85 }
+      { name: "Matplotlib / Seaborn", level: 85 },
+      { name: "VICIdial", level: 90 },
+      { name: "Operations Analytics", level: 85 },
+      { name: "Excel", level: 90 }
     ]
   },
   {
