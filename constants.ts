@@ -390,7 +390,8 @@ export const PROJECTS: Project[] = [
       "/images/al-ahly-crm/sae.PNG",
       "/images/al-ahly-crm/sde.PNG",
       "/images/al-ahly-crm/tawk.PNG",
-      "/images/al-ahly-crm/tawk2.PNG"
+      "/images/al-ahly-crm/tawk2.PNG",
+      "/images/al-ahly-crm/workflow sportsmanagment.png"
     ],
     github_url: "https://github.com/youssef-113",
     presentation_url: "/images/al-ahly-crm/Al ahly club CRM.pdf",
@@ -497,7 +498,8 @@ export const PROJECTS: Project[] = [
       "/images/websit-vmax/vmax landing page.PNG",
       "/images/websit-vmax/vmax dashboard.PNG",
       "/images/websit-vmax/manager-dash.PNG",
-      "/images/websit-vmax/salesman-dash.PNG"
+      "/images/websit-vmax/salesman-dash.PNG",
+      "/images/websit-vmax/workflow vmax.png"
     ],
     github_url: "https://github.com/youssef-113",
     type: "software Engineer",
