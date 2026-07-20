@@ -396,7 +396,8 @@ export const PROJECTS: Project[] = [
     presentation_url: "/images/al-ahly-crm/Al ahly club CRM.pdf",
     type: "software Engineer",
     year: "2025",
-    featured: true
+    featured: true,
+    live_url: "https://spormanagementcrm.netlify.app/"
   },
   {
     id: "p2",
@@ -501,7 +502,8 @@ export const PROJECTS: Project[] = [
     github_url: "https://github.com/youssef-113",
     type: "software Engineer",
     year: "2025",
-    featured: false
+    featured: false,
+    live_url: "https://vmax-crm.vercel.app/"
   },
   {
     id: "p5",
