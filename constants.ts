@@ -901,7 +901,7 @@ export const PROJECTS: Project[] = [
       "/Images/Life Code/notion system.png"
     ],
     github_url: "https://github.com/youssef-113/Life-code",
-    live_url: "https://life-code--yossfabdla311.replit.app",
+    live_url: "https://life-code-delta.vercel.app/",
     presentation_url: "/Images/Life Code/LifeCode 3.0 Cataloge.pdf",
     type: "software Engineer",
     year: "2026",
