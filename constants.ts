@@ -398,7 +398,7 @@ export const PROJECTS: Project[] = [
     type: "software Engineer",
     year: "2025",
     featured: true,
-    live_url: "https://spormanagementcrm.netlify.app/"
+    live_url: "https://sportmanagementcrm.vercel.app/"
   },
   {
     id: "p2",
