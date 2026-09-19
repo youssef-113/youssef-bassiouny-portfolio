@@ -1061,6 +1061,47 @@ export const PROJECTS: Project[] = [
     year: "2026",
     featured: true
   },
+  {
+    id: "p23",
+    title: "ProjectFlow - Full Stack Task Management",
+    short_description: "A lightweight project and task tracker for software teams with TypeScript monorepo architecture, featuring NestJS API, Next.js frontend, and MongoDB database.",
+    long_description: "ProjectFlow is a comprehensive project and task management system built as a TypeScript monorepo using pnpm workspaces and Turborepo. It features a NestJS backend API with MongoDB, a Next.js 16 App Router frontend, and a shared package for domain types. The system includes authentication with JWT, organization-based access control, project management with task tracking, and discussion threads for collaboration.",
+    problem_solved: "Software teams needed a centralized platform to manage projects and tasks with proper access control and real-time collaboration. Existing solutions were either too complex or lacked the flexibility needed for team-based workflows. ProjectFlow provides a lightweight yet powerful solution with role-based permissions, task numbering, and activity tracking.",
+    technical_highlights: [
+      "Built as TypeScript monorepo with pnpm workspaces and Turborepo for efficient package management",
+      "Implemented NestJS 11 backend with Mongoose 8 and MongoDB for robust API architecture",
+      "Created Next.js 16 App Router frontend with React 19 and server components by default",
+      "Integrated JWT-based authentication with bcrypt password hashing for secure access",
+      "Designed role-based authorization with organization and project-level permissions",
+      "Implemented TanStack Query 5 for server state management and optimistic updates",
+      "Used React Hook Form with Zod for form validation and type safety",
+      "Created comprehensive test suite with Jest, Supertest, and in-memory MongoDB",
+      "Deployed with Railway for backend API and Vercel for frontend with MongoDB Atlas"
+    ],
+    business_impact: [
+      "Enabled teams to organize work with clear project hierarchies and task numbering",
+      "Improved collaboration through discussion threads and activity history tracking",
+      "Reduced development time with shared types and monorepo architecture",
+      "Enhanced security with proper authentication and authorization patterns",
+      "Scalable architecture supporting multiple organizations and team structures",
+      "Production-ready deployment with modern cloud infrastructure"
+    ],
+    tech_stack: ["TypeScript", "NestJS", "Next.js", "React", "MongoDB", "Mongoose", "Tailwind CSS", "TanStack Query", "pnpm", "Turborepo", "JWT", "Zod", "Radix UI"],
+    thumbnail_url: "/images/projectFlow/banner.png",
+    gallery_images: [
+      "/images/projectFlow/banner.png",
+      "/images/projectFlow/ChatGPT Image Sep 19, 2026, 08_22_12 PM.png",
+      "/images/projectFlow/ChatGPT Image Sep 19, 2026, 08_22_19 PM.png",
+      "/images/projectFlow/ChatGPT Image Sep 19, 2026, 08_25_31 PM.png",
+      "/images/projectFlow/ChatGPT Image Sep 19, 2026, 08_27_39 PM.png"
+    ],
+    github_url: "https://github.com/youssef-113/ProjectFlow-FullStack-Assessment-Task",
+    live_url: "https://project-flow-full-stack-assessment.vercel.app/",
+    presentation_url: "/images/projectFlow/ProjectFlow - System Design & API Specification.pdf",
+    type: "software Engineer",
+    year: "2026",
+    featured: true
+  },
 
 ];
 
