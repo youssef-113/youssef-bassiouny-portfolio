@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Github, ExternalLink, BookOpen, FileText, Images, Info } from 'lucide-react';
+import { Github, ExternalLink, BookOpen, FileText, Images, Info, Video } from 'lucide-react';
 import { Project } from '../types';
 import ImageGalleryModal from './ImageGalleryModal';
 import ProjectDetailsModal from './ProjectDetailsModal';
@@ -75,6 +75,16 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project, index }) => {
             </div>
           )}
 
+          {/* Video Badge */}
+          {project.video_url && (
+            <div className="absolute bottom-3 right-3 z-10">
+              <div className="flex items-center gap-1.5 px-2.5 py-1 bg-gradient-to-r from-purple-600/90 to-indigo-600/90 backdrop-blur-md rounded-full border border-purple-300/40 text-white text-xs font-semibold shadow-lg">
+                <Video size={13} className="animate-pulse text-purple-200" />
+                <span>Video Demo</span>
+              </div>
+            </div>
+          )}
+
           {/* Gallery Hint on Hover */}
           {hasGallery && (
             <div className="absolute inset-0 bg-black/40 backdrop-blur-sm opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
@@ -120,6 +130,18 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project, index }) => {
               <Info size={16} />
               <span>View Details</span>
             </button>
+
+            {/* Video Demo Button */}
+            {project.video_url && (
+              <button
+                onClick={() => setIsDetailsOpen(true)}
+                className="flex items-center gap-1 text-sm font-medium text-purple-600 dark:text-purple-400 hover:text-purple-700 dark:hover:text-purple-300 transition-colors transform hover:scale-105"
+                title="Watch Video Demo"
+              >
+                <Video size={16} />
+                <span>Video</span>
+              </button>
+            )}
 
             {/* View Gallery Button */}
             {hasGallery && (

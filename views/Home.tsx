@@ -2,12 +2,16 @@ import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowRight, Eye, Terminal, Award, Github, Linkedin, Phone } from 'lucide-react';
 import { HERO_CONTENT, PROJECTS, CERTIFICATES } from '../constants';
+import { Project } from '../types';
 import ProjectCard from '../components/ProjectCard';
 
 const Home: React.FC = () => {
-  const docmindProject = PROJECTS.find(p => p.id === 'p20');
-  const otherFeatured = PROJECTS.filter(p => p.featured && p.id !== 'p20').slice(0, 1);
-  const featuredProjects = docmindProject ? [docmindProject, ...otherFeatured] : otherFeatured;
+  const priorityIds = ['p24', 'p25', 'p20', 'p23'];
+  const priorityProjects = priorityIds
+    .map(id => PROJECTS.find(p => p.id === id))
+    .filter((p): p is Project => Boolean(p));
+  const fallbackFeatured = PROJECTS.filter(p => p.featured && !priorityIds.includes(p.id));
+  const featuredProjects = [...priorityProjects, ...fallbackFeatured].slice(0, 4);
   const featuredCertifications = CERTIFICATES.slice(0, 3);
 
   // Typing animation state

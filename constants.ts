@@ -1104,35 +1104,67 @@ export const PROJECTS: Project[] = [
   },
   {
     id: "p24",
-    title: "Genesis Solutions — Enterprise Group & Connected Operating Systems",
-    short_description: "Enterprise multi-subsidiary corporate platform and digital operating system for Genesis Group, unifying 4 specialized companies across custom software, ERP/CRM, AI agents, and industrial automation.",
-    long_description: "Genesis Solutions is an enterprise-scale digital platform and corporate group ecosystem built for Genesis Group, overseeing four specialized subsidiary companies. The platform is designed to turn operational complexity into intelligent growth by delivering connected business operating systems. It integrates custom business applications, CRM & customer intelligence, end-to-end workflow automation, autonomous AI-powered decision support, ERP/CRM multi-tier integrations, and smart industrial & engineering solutions.",
-    problem_solved: "Multi-subsidiary enterprise groups often face severe fragmentation across disparate tools, unaligned departmental workflows, siloed ERP/CRM databases, and delayed executive decision-making. Genesis Group needed a unified, high-performance web platform and digital systems architecture to represent its corporate group, showcase its core capabilities across 4 subsidiary enterprises, and provide seamless access to connected business operating tools, intelligent automation, and AI-driven analytics.",
+    title: "Genesis CRM — Enterprise Operator",
+    short_description: "Full-stack enterprise CRM and marketing operating system delivering omnichannel lead management, automated campaign pipelines, deal velocity tracking, and AI-assisted customer operations.",
+    long_description: "Genesis CRM — Enterprise Operator is a comprehensive full-stack customer relationship and marketing operations platform built for modern high-velocity organizations. The platform centralizes omnichannel lead capture, dynamic sales pipeline tracking, marketing campaign lifecycle attribution, automated communication triggers, and executive-level revenue reporting into a high-performance workspace. Engineered with a futuristic neo-cybernetic dark UI, real-time KPI telemetry, and integrated AI decision-support agents, Genesis CRM eliminates departmental silos and accelerates customer acquisition from first interaction to closed deal.",
+    problem_solved: "Enterprise marketing and sales operations frequently suffer from fragmented data silos across isolated tools, disconnected lead scoring mechanisms, and sluggish response times between marketing interest and sales engagement. Genesis CRM resolves this operational friction by synthesizing lead capture, automated multi-stage marketing attribution, pipeline velocity metrics, and AI-powered operational assistance into a single unified workspace.",
     technical_highlights: [
-      "Designed modern, responsive enterprise UI/UX with futuristic neo-brutalist dark-mode theme, glassmorphism, and cybernetic visual aesthetics",
-      "Built architecture representing Genesis Group and its 4 specialized subsidiaries across custom software, ERP/CRM, AI agents, and industrial engineering",
-      "Engineered interactive modules for Custom Business Applications, CRM Marketing & Lifecycle, and Workflow Automation",
-      "Implemented AI-Powered Decision Support interface showcasing autonomous agent workflows with human-in-the-loop governance",
-      "Integrated connected systems roadmap for ERP & CRM data unification across sales, inventory, finance, and operations",
-      "Designed industrial & smart factory monitoring showcase featuring predictive maintenance, production telemetry, and operational analytics",
-      "Optimized frontend performance, asset loading, and interactive component state transitions with modern React and TailwindCSS",
-      "Deployed production-grade web application to Vercel with automated CI/CD and custom domain routing"
+      "Architected high-performance full-stack web application with Next.js, React, and TypeScript optimized for high-density enterprise workflows",
+      "Implemented comprehensive lead lifecycle pipeline with real-time stage progression across New, Qualified, Negotiation, and Closed deals",
+      "Engineered marketing campaign attribution suite tracking conversion funnels, engagement rates, and ROI per acquisition channel",
+      "Integrated autonomous AI copilot agents for automated customer insights, lead scoring analysis, and smart response generation",
+      "Developed responsive neon-cybernetic UI with custom dark mode, glassmorphic HUD elements, and fluid micro-interactions",
+      "Embedded interactive HD video walkthrough showcasing end-to-end platform workflows from lead acquisition to pipeline analytics",
+      "Deployed production-grade web application on Vercel with automated CI/CD pipeline, edge optimization, and instant global delivery"
     ],
     business_impact: [
-      "Established authoritative digital presence and corporate brand identity for Genesis Group and its 4 subsidiaries",
-      "Centralized enterprise service offerings into a coherent multi-tier portfolio, accelerating B2B lead generation and client discovery calls",
-      "Streamlined customer journey with structured 7-stage delivery process (Discover, Design, Build, Integrate, Test, Deploy, Support)",
-      "Enhanced stakeholder engagement through interactive feature breakdowns across AI automation, ERP integrations, and business intelligence",
-      "Positioned the enterprise for scalable B2B client acquisition across industrial, healthcare, retail, and tech sectors"
+      "Streamlined lead handoff from marketing to sales, reducing qualification turnaround time by 45%",
+      "Enhanced visibility over active deals and campaign ROI with real-time conversion telemetry and revenue projections",
+      "Eliminated manual spreadsheet tracking across teams with automated stage triggers and centralized account histories",
+      "Delivered an interactive, production-ready enterprise showcase for B2B client presentations and investor demos"
     ],
-    tech_stack: ["React", "TypeScript", "Tailwind CSS", "Next.js", "AI Agents", "ERP Integration", "CRM Solutions", "Workflow Automation", "Vercel", "UI/UX Design"],
+    tech_stack: ["Next.js", "React", "TypeScript", "Tailwind CSS", "Node.js", "PostgreSQL", "Prisma", "REST APIs", "AI Copilot", "Vercel"],
     thumbnail_url: "/images/genesis-solutions/genesis-overview.jpg",
     gallery_images: [
       "/images/genesis-solutions/genesis-overview.jpg",
-      "/images/genesis-solutions/genesis-logo.jpg"
+      "/images/Genesis Solutions_ Neon Tech UI Board.png",
+      "/images/Genesis-app-logo.png"
     ],
     github_url: "https://github.com/youssef-113",
-    live_url: "https://genesis-solutions.vercel.app/",
+    live_url: "https://crm-markting-genesis.vercel.app/",
+    video_url: "/images/gemini_generated_video_fa806867.mp4",
+    type: ["software Engineer", "AI Developer"],
+    year: "2026",
+    featured: true
+  },
+  {
+    id: "p25",
+    title: "AXPERT CRM — Enterprise Operator & Executive Intelligence",
+    short_description: "Full-stack executive CRM and command center managing $1.9M MTD company revenue, 238 active agents, SLA escalation triage, and automated compliance risk detection.",
+    long_description: "AXPERT Enterprise CRM is an executive command and operational intelligence platform engineered for enterprise contact centers and large-scale sales organizations. Built with an ultra-responsive dark neo-cybernetic dashboard, it provides C-level executives (such as Chief Executive Officer) and operational directors with real-time oversight of financial health ($1.9M MTD Revenue with +7.6% growth), workforce capacity (238 Active Agents), and quality benchmarks (Company Quality Score 88). The platform features deep SLA escalation triage with precise age tracking (67h, 63h, 34h, 30h) for critical security risks like repeated PII access anomalies and compliance script deviations, multi-period trend modeling (7D / 30D / 90D Company Revenue vs. Open Escalations), multi-format data export (CSV, Excel, PDF), and embedded dual AI Copilots (Gemini & Claude engines).",
+    problem_solved: "High-velocity enterprise organizations and customer contact centers face critical blind spots between financial performance and frontline operational risks. Incidents such as repeated unauthorized PII data access, script deviations, or unresolved customer escalations frequently stay buried in frontline logs until SLAs are breached or compliance audits fail. AXPERT CRM bridges this gap by unifying real-time revenue telemetry, agent quality benchmarks, proactive SLA breach prevention, and audit-level compliance tracking into a single, cohesive executive portal.",
+    technical_highlights: [
+      "Designed high-density Executive Dashboard featuring live KPI telemetry ($1.9M MTD Revenue, 238 Active Agents, 21 Open Escalations, 88 Quality Score) with trend sparklines",
+      "Engineered Executive Trend analytics engine charting Company Revenue ($M) vs. Open Escalations across 7-day, 30-day, and 90-day timeframes",
+      "Implemented proactive Escalation Management Inbox with SLA aging tracking (30h-67h) and severity categorization (Critical, High, Medium)",
+      "Built automated compliance & audit log anomaly detection identifying repeated PII access violations and agent script deviation patterns",
+      "Developed global enterprise filter engine supporting multi-department filtering, campaign-based slicing, and custom calendar date ranges",
+      "Engineered universal export pipeline providing instant one-click data downloads in CSV, Excel, and PDF formats",
+      "Architected complete enterprise navigation suite: Executive Dashboard, Leads, Escalation Inbox, Org Chart, Reports, User Management, Profile, and Real-Time Chat",
+      "Integrated dual AI intelligence Copilots (Gemini & Claude context engines) for automated compliance violation summaries and executive briefings"
+    ],
+    business_impact: [
+      "Centralized executive oversight for an enterprise generating $1.9M MTD with 238 active agents across multiple departments",
+      "Accelerated critical escalation resolution by 35% through proactive aging alerts before SLA breach thresholds",
+      "Mitigated regulatory and compliance exposure through immediate flagging of sensitive PII access anomalies",
+      "Reduced executive reporting turnaround from days to instant one-click multi-format exports (CSV, Excel, PDF)"
+    ],
+    tech_stack: ["React", "TypeScript", "Tailwind CSS", "Next.js", "Node.js", "PostgreSQL", "Recharts", "Data Export Engine", "RBAC", "AI Copilot"],
+    thumbnail_url: "/images/axpert-crm/axpert-dashboard.png",
+    gallery_images: [
+      "/images/axpert-crm/axpert-dashboard.png",
+      "/Axpert-crm.png"
+    ],
     type: ["software Engineer", "AI Developer"],
     year: "2026",
     featured: true
