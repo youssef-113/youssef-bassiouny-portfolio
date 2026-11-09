@@ -423,7 +423,7 @@ export const PROJECTS: Project[] = [
       "Identified best-performing models and companies for targeted marketing",
       "Enhanced profitability through optimized inventory turnover rates"
     ],
-    tech_stack: ["Python", "Power BI", "Scikit-learn", "Pandas", "ARIMA"],
+    tech_stack: ["Python", "Streamlit", "Power BI", "Scikit-learn", "Pandas", "ARIMA"],
     thumbnail_url: "/images/forcast-car-sales/OverView.PNG",
     gallery_images: [
       "/images/forcast-car-sales/OverView.PNG",
@@ -432,6 +432,7 @@ export const PROJECTS: Project[] = [
       "/images/forcast-car-sales/Dril-Drow.PNG"
     ],
     github_url: "https://github.com/youssef-113",
+    live_url: "https://sales-forcasting-caes-sales-7kanxprhiwrjwimejctj4o.streamlit.app/",
     type: "Data science",
     year: "2025",
     featured: false
@@ -463,6 +464,7 @@ export const PROJECTS: Project[] = [
     thumbnail_url: "/images/projects/gan.png",
     github_url: "https://github.com/youssef-113",
     notebook_url: "https://colab.research.google.com/",
+    live_url: "https://dcganmnist-zyzbzievkeerzyxkndkrjf.streamlit.app/",
     type: "Data science",
     year: "2025",
     featured: true
@@ -620,6 +622,7 @@ export const PROJECTS: Project[] = [
     thumbnail_url: "/images/projects/bert.png",
     github_url: "https://github.com/youssef-113",
     notebook_url: "https://huggingface.co/",
+    live_url: "https://fine-tune-bert-for-text-classification-bwxjhkm4nvggmwzgr7arsy.streamlit.app/",
     type: "Data science",
     year: "2025",
     featured: false
